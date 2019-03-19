@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- Developed by Krishna Kokatay, 2019. Visit my website: www.kalightortaio.com -->
+    <meta charset="utf-8">
+    <meta id="viewport" name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Community Care</title>
+    {% load static %}
+    <link rel="icon" href="{% static '/website/images/favicon.png' %}">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="{% static 'website/css/footer.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'website/css/pat-base.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'website/css/pat-news-grief-article.css' %}">
+  </head>
+  <body>
+    {% include "../../base/pat-navbar.html" %}
+      <div id="content-wrapper">
+        <div class="centered hidelink">
+          <img src="{% static '/website/images/news.png' %}" height="210" width="1140" alt="Family smiling" />
+          <div class="sitemap">
+            <span><a href="/patients-and-caregivers/pages/home">Patients and Caregivers&nbsp;</a></span>
+            <span class="fa fa-caret-right"></span>
+            <span><a href="/patients-and-caregivers/volunteer-and-community/pages/home">&nbsp;Volunteer and Community&nbsp;</a></span>
+            <span class="fa fa-caret-right"></span>
+            <span><a href="/patients-and-caregivers/news-and-media/pages/home">&nbsp;News and Media&nbsp;</a></span>
+            <span class="fa fa-caret-right"></span>
+            <span><a href="/patients-and-caregivers/news-and-media/pages/about-grief">&nbsp;About Grief&nbsp;</a></span>
+            <span class="fa fa-caret-right"></span>
+            <span><a href="/patients-and-caregivers/news-and-media/pages/about-grief/pregnancy-loss">&nbsp;Pregnancy Loss&nbsp;</a></span>
+          </div>
+          <div class="content">
+            <img class="bufferdown" src="{% static '/website/images/pregnancylossisreallydepressing.png' %}" width="650" height="425" alt="replacemelater" />
+            <span class="title">Pregnancy Loss</span>
+            <p class="p1"><span>As soon as couples find out they’re pregnant, a relationship forms with the unborn child. Pregnant moms are drawn to the windows of maternity stores. Prospective parents pick up little footballs, tiaras and tea sets. Outfits and car seats are carefully selected for the ride home from the hospital. But, all of those loving conversations between partners can come to an abrupt halt.</span></p>
+            <p class="p1"><span>Pregnancy loss generally includes miscarriage, stillbirth, and neo-natal death which occurs in the first 28 days of life. While more and more folks acknowledge the hardship of pregnancy loss, it is generally minimized in our society. For those that have experienced it, there is nothing minimal about it. The symptoms and intensity of grief are the same as any other type of loss. There are also some unique grief issues that accompany pregnancy loss which aren’t present with other types of deaths.</span></p>
+            <p class="p1"><span>There can be an extended physical & hormonal adjustment period for the mom. And there is the potential for future medical risks, as well as genetic and congenital factors.</span></p>
+            <p class="p1"><span>Issues surround subsequent pregnancies. Couples struggle with whether or not to become pregnant again and if so, when. They may fear that what had just happened will happen again. Subsequent pregnancies are often laden with increased fears and anxiety. There is less “bliss” in being pregnant. Moms are hyper vigilant to any unrecognizable physical issues and contact their physician more often. They may not want to tell others they’re pregnant and some experience relief when the pregnancy lasts longer than when the previous baby died.</span></p>
+            <p class="p1"><span>And there are triggers everywhere.</span></p>
+            <p class="p1"><span>With the warmer weather, all those babies that were born during the winter seem to be out and about. The landscape is dotted with strollers that act as reminders of the loss. For some, it may be difficult to be around other pregnant women or to be excited for family or friends who are pregnant. Others may feel emotionally unable to go to a baby shower or perhaps are being avoided by pregnant friends. Both the due date and the date-of-death can be difficult triggers.</span></p>
+            <p class="p1"><span>Please know that families do not have to grieve alone. If family and friends are unable to support you, there are support groups, online communities and healthcare professionals to companion you on this difficult journey.</span></p>
+          </div>
+          <div class="side-content">
+            <ul class="tableofcontents">
+              <li>
+                <a href="/patients-and-caregivers/news-and-media/pages/journey"><span>Journey</span></a>
+              </li>
+              <li>
+                <a href="/patients-and-caregivers/news-and-media/pages/about-grief" class="active"><span>About Grief</span></a>
+              </li>
+              <li>
+                <a href="/patients-and-caregivers/news-and-media/pages/community-connections"><span>Community Connections</span></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      {% include "../../base/footer.html" %}
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous" defer></script>
+    <script type="text/javascript" src="{% static 'website/js/navbar.js' %}" defer></script>
+  </body>
+</html>

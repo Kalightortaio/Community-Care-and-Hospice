@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- Developed by Krishna Kokatay, 2019. Visit my website: www.kalightortaio.com -->
+    <meta charset="utf-8">
+    <meta id="viewport" name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Community Care</title>
+    {% load static %}
+    <link rel="icon" href="{% static '/website/images/favicon.png' %}">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="{% static 'website/css/footer.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'website/css/prof-base.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'website/css/prof-careers-home.css' %}">
+  </head>
+  <body>
+    {% include "../base/prof-navbar.html" %}
+      <div id="content-wrapper">
+        <div class="centered hidelink">
+          <div class="sitemap">
+            <span><a href="/professionals/pages/home">Professionals&nbsp;</a></span>
+            <span class="fa fa-caret-right"></span>
+            <span><a href="/professionals/careers/pages/home">&nbsp;Careers</a></span>
+          </div>
+          <div class="content">
+            <span class="title">Careers at CCH</span>
+            <p><span class="titletext">Looking for a career that makes a tangible difference in the quality of life in our community? Whether you are a healthcare professional or have expertise in a non-clinical specialty, we offer opportunities for you to shine in a collaborative environment.</span></p>
+            <div class="divider"></div>
+            <p class="p1"><span>Every employee at Community Care & Hospice plays a meaningful role – whether working directly with our patients and families or behind-the-scenes. If you're interested in a career that pays benefits far beyond a paycheck, check out our available career opportunities and then <a href="{% static 'website/documents/application.pdf' %}" target="_blank"><span class="showlink">complete an application</span></a> for the job you are interested in.</span></p>
+            <p><span class="titletext2">Benefits</span></p>
+            <p class="p1"><span>Community Care & Hospice employs a substantial amount of individuals in various counties throughout Ventura and Greater Los Angeles. You'll enjoy flexibility, opportunities for growth and development and a generous, compassionate community.</span></p>
+            <p><span class="titletext2">Application Process</span></p>
+            <p class="p1"><span>Applications are sent to the respective team leader(s) for review. Prospective applicants are then invited for an initial interview and the most promising candidates are brought in for a second interview. The final candidate will receive a job offer from the hiring Team Leader.</span></p>
+            <p><span class="titletext2">Covenants</span></p>
+            <img src="{% static '/website/images/nurses.png' %}" height="240" width="300" alt="nurses" />
+            <p class="p1"><span>Creating a supportive and productive work environment is important to us. At Community Care & Hospice, we strive to create a culture that encourages honest dialogue, respect for the feelings, values and cultures of others, teamwork and a commitment to our mission. We maintain a harmonious work environment by strictly adhering our Covenants, which serve as our code of conduct.</span></p>
+            <div>
+              <ul>
+                <li><span>We agree to <span class="boldblue">uphold and support the mission and philosophy</span> of Community Care & Hospice.</span></li>
+                <li><span>We commit to <span class="boldblue">honest dialogue</span> with our team members and our organization.</span></li>
+                <li><span>We make choices based on our <span class="boldblue">mission and needs</span>.</span></li>
+                <li><span>We acknowledge that <span class="boldblue">conflict is an opportunity for growth</span>, and we agree to resolve our conflicts in a caring way.</span></li>
+                <li><span>We <span class="boldblue">honor the value and contributions</span> of each team member for the success of the whole.</span></li>
+                <li><span>We understand that <span class="boldblue">each complaint contains a request</span>, and we agree to present this request to the appropriate person for feedback.</span></li>
+                <li><span>We agree to assume <span class="boldblue">responsibility</span> for our role and <span class="boldblue">accountability</span> for our performance.</span></li>
+                <li><span>We agree to <span class="boldblue">take responsibility for our own feelings</span> and well-being.</span></li>
+                <li><span>We agree to <span class="boldblue">respect and accept all cultural differences</span>​.</span></li>
+              </ul>
+            </div>
+          </div>
+          <div class="side-content">
+            <ul class="tableofcontents">
+              <li>
+                <a href="/professionals/careers/pages/job-openings"><span>Job Openings</span></a>
+              </li>
+            </ul>
+            <div class="referralbox">
+              <span class="title">Questions?</span><br />
+              <p><span><a href="mailto:business.comcareh@gmail.com" target="_blank"><span class="showlink">Click here</span></a> to reach a member of our recruitment team.</span></p>
+              <div class="fa fa-caret-down fa-3x"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      {% include "../base/footer.html" %}
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous" defer></script>
+    <script type="text/javascript" src="{% static 'website/js/navbar.js' %}" defer></script>
+  </body>
+</html>

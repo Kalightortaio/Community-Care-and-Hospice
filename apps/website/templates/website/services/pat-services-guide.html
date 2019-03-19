@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- Developed by Krishna Kokatay, 2019. Visit my website: www.kalightortaio.com -->
+    <meta charset="utf-8">
+    <meta id="viewport" name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Community Care</title>
+    {% load static %}
+    <link rel="icon" href="{% static '/website/images/favicon.png' %}">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="{% static 'website/css/footer.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'website/css/pat-base.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'website/css/pat-services-guide.css' %}">
+  </head>
+  <body>
+    {% include "../base/pat-navbar.html" %}
+      <div id="content-wrapper">
+        <div class="centered hidelink">
+          <img src="{% static '/website/images/laughing.png' %}" height="210" width="1140" alt="Family smiling" />
+          <div class="sitemap">
+            <span><a href="/patients-and-caregivers/pages/home">Patients and Caregivers&nbsp;</a></span>
+            <span class="fa fa-caret-right"></span>
+            <span><a href="/patients-and-caregivers/our-services/pages/home">&nbsp;Our Services</a></span>
+          </div>
+          <div class="content">
+            <span class="title">Caregiver Training Guide</span>
+            <p><span class="titletext">You are a caregiver. You are part of a very large club. There are nearly 40 million people in the United States right now caring for their adult loved one.</span></p>
+            <div class="divider"></div>
+            <p><a href="javascript:;" target="_blank"><span class="titletext2">Read the Guide</span></a></p>
+            <p class="p1"><span>None of you are being paid a salary. Many of you are also caring for a child or children under the age of 18. You also have responsibilities at work, school and home. Being a caregiver can be difficult and rewarding—sometimes both at the same time. If the person you love and are helping to care for is seriously ill, you may have to learn new skills. You may find yourself with tasks you never imagined having to do and that you know nothing about. That is where the Community Care & Hospice Caregiver Training Guide comes in.</span></p>
+            <p class="p1"><span>At Community Care & Hospice, one of our most important jobs is to help support and train our patient’s caregivers. While we are the medical professionals—doctors, nurses, nursing assistants and social workers—you are also absolutely essential to your loved one’s care.</span></p>
+            <p class="p1"><span>A team of staff and volunteers has developed this Caregiver Training Guide to help you feel comfortable in your role as caregiver, to answer questions as they come up and to boost your confidence in your abilities to provide help to your loved one. Your team will be there for you in person to explain, and demonstrate, caregiving techniques. This Guide is always available online and as a printable booklet, whenever you need a reference or a shot of confidence.</span></p>
+            <p class="p1"><span>The Caregiver Training Guide is not meant to substitute for our services or our professional team members. If you need immediate assistance, please contact your hospice care team directly or by using On-call at 805.667.8558.</span></p>
+            <p class="p1"><span>Thank you for allowing us to be part of your caregiving team. You can do this.</span></p>
+          </div>
+          <div class="side-content">
+            <ul class="tableofcontents">
+              <li>
+                <a href="/patients-and-caregivers/our-services/pages/care-settings"><span>Care Settings</span></a>
+              </li>
+              <li>
+                <a href="/patients-and-caregivers/our-services/pages/quality-assurance"><span>Quality Assurance</span></a>
+              </li>
+              <li>
+                <a href="/patients-and-caregivers/our-services/pages/caregiver-training-guide" class="active"><span>Caregiver Training Guide</span></a>
+              </li>
+              <li>
+                <a href="/patients-and-caregivers/contact-us/pages/home"><span>Contact Us</span></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      {% include "../base/footer.html" %}
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous" defer></script>
+    <script type="text/javascript" src="{% static 'website/js/navbar.js' %}" defer></script>
+  </body>
+</html>
+

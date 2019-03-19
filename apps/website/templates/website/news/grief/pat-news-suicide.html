@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- Developed by Krishna Kokatay, 2019. Visit my website: www.kalightortaio.com -->
+    <meta charset="utf-8">
+    <meta id="viewport" name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Community Care</title>
+    {% load static %}
+    <link rel="icon" href="{% static '/website/images/favicon.png' %}">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="{% static 'website/css/footer.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'website/css/pat-base.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'website/css/pat-news-grief-article.css' %}">
+  </head>
+  <body>
+    {% include "../../base/pat-navbar.html" %}
+      <div id="content-wrapper">
+        <div class="centered hidelink">
+          <img src="{% static '/website/images/news.png' %}" height="210" width="1140" alt="Family smiling" />
+          <div class="sitemap">
+            <span><a href="/patients-and-caregivers/pages/home">Patients and Caregivers&nbsp;</a></span>
+            <span class="fa fa-caret-right"></span>
+            <span><a href="/patients-and-caregivers/volunteer-and-community/pages/home">&nbsp;Volunteer and Community&nbsp;</a></span>
+            <span class="fa fa-caret-right"></span>
+            <span><a href="/patients-and-caregivers/news-and-media/pages/home">&nbsp;News and Media&nbsp;</a></span>
+            <span class="fa fa-caret-right"></span>
+            <span><a href="/patients-and-caregivers/news-and-media/pages/about-grief">&nbsp;About Grief&nbsp;</a></span>
+            <span class="fa fa-caret-right"></span>
+            <span><a href="/patients-and-caregivers/news-and-media/pages/about-grief/coping-with-grief-and-loss-after-a-suicide">&nbsp;​Coping with Grief and Loss After a Suicide&nbsp;</a></span>
+          </div>
+          <div class="content">
+            <img class="bufferdown" src="{% static '/website/images/suicide.png' %}" width="650" height="425" alt="red candles in memory" />
+            <span class="title">​Coping with Grief and Loss After a Suicide</span>
+            <p class="p1"><span>Grief following a suicide is intense and prolonged. Suicide is a traumatic loss. It is sudden, unexpected and frequently violent. Reactions may be intense and different from anything else you have ever experienced and that can be frightening.</span></p>
+            <ul>
+              <li><span class="p1">You may be preoccupied with the event itself and need to tell and retell the story. Find one or two people who are good listeners. This can be a friend, family member, clergy or a health care professional. Retelling the story is one way of gaining understanding and believing what has happened.</span></li>
+              <li><span class="p1">Why, why, why? You may find yourself searching for reasons or reliving last conversations with the person. You may wonder if you may have missed a clue. This is part of the journey. You will learn how to live with the questions rather than searching for the answers.</span></li>
+              <li><span class="p1">You may feel anger, blame or guilt. Perhaps you are angry at the persons who died. Perhaps you blame yourself or others for not being able to prevent the death. You may feel guilty for something you did or didn't do. Acknowledge your feelings and be kind to yourself.</span></li>
+              <li><span class="p1">If you are feeling the stigma often associated with suicide, you may feel shame or embarrassment. Remember that the person's death is a statement about the pain they were in and not a reflection on you.</span></li>
+              <li><span class="p1">Many experience a rollercoaster of emotions. There is no right or wrong way to feel. Give yourself permission to grieve and cry. Find an outlet to express your feelings that works for you.</span></li>
+              <li><span class="p1">You may experience difficulty concentrating, sleeping or have physical symptoms that weren't present prior to the death. This is all part of the grief process. Eventually these should subside, but if they do not, discuss them with your healthcare provider.</span></li>
+              <li><span class="p1">Some people are unsure as to what to tell others about the death. Keeping secrets often leads to complications. Provide basic facts and answer children's questions with simple, honest and age-appropriate answers. Let them lead the conversation.</span></li>
+              <li><span class="p1">Birthdays, anniversaries, special occasions can be painful. Music, smells, locations, and other reminders can trigger grief reactions. Recognize that this is okay.</span></li>
+              <li><span class="p1">It can be helpful to connect with others in a support group. Talking openly about suicide with people who understand can bring relief.</span></li>
+            </ul>
+            <p class="p1"><span>Coping with the death of a loved one who died by suicide can be extremely difficult. Please remember that you do not have to grieve alone. Hold on to hope.</span></p>
+            <p class="p1"><span>Resources:</span></p>
+            <p class="p1"><span>Survivors of Suicide: <a href="www.survivorsofsuicide.com" target="_blank" class="showlink">www.survivorsofsuicide.com</a></span></p>
+            <p class="p1"><span>American Foundation for Suicide Prevention: <a href="www.afsp.org" target="_blank" class="showlink">www.afsp.org</a></span></p>
+            <p class="p1"><span>American Association of Suicidality: <a href="www.suicidology.org" target="_blank" class="showlink">www.suicidology.org</a></span></p>
+          </div>
+          <div class="side-content">
+            <ul class="tableofcontents">
+              <li>
+                <a href="/patients-and-caregivers/news-and-media/pages/journey"><span>Journey</span></a>
+              </li>
+              <li>
+                <a href="/patients-and-caregivers/news-and-media/pages/about-grief" class="active"><span>About Grief</span></a>
+              </li>
+              <li>
+                <a href="/patients-and-caregivers/news-and-media/pages/community-connections"><span>Community Connections</span></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      {% include "../../base/footer.html" %}
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous" defer></script>
+    <script type="text/javascript" src="{% static 'website/js/navbar.js' %}" defer></script>
+  </body>
+</html>
+

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- Developed by Krishna Kokatay, 2019. Visit my website: www.kalightortaio.com -->
+    <meta charset="utf-8">
+    <meta id="viewport" name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Community Care</title>
+    {% load static %}
+    <link rel="icon" href="{% static '/website/images/favicon.png' %}">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="{% static 'website/css/footer.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'website/css/pat-base.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'website/css/pat-contact-home.css' %}">
+  </head>
+  <body>
+    {% include "../base/pat-navbar.html" %}
+      <div id="content-wrapper">
+        <div class="centered hidelink">
+          <img src="{% static '/website/images/Hills.png' %}" height="210" width="1140" alt="Family smiling" />
+          <div class="sitemap">
+            <span><a href="/patient-and-caregivers/pages/home">Patient and Caregivers&nbsp;</a></span>
+            <span class="fa fa-caret-right"></span>
+            <span><a href="/patient-and-caregivers/contact-us/pages/home">&nbsp;Contact Us</a></span>
+          </div>
+          <div class="content">
+            <span class="title">Contact Us</span>
+            <table>
+              <tr>
+                <td>
+                  <p><span class="titletext2">Office Location</span></p>
+                  <p class="p1"><span>4000 Calle Tecate, Suite 114<br />Camarillo, CA 93012<br />Voice: 805.667.8558<br />Fax: 805.384.0933</span></p>
+                  <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13196.302870134026!2d-119.016831!3d34.221085!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x401276adce2f8dd7!2sCommunity+Care+and+Hospice+LLC!5e0!3m2!1sen!2sus!4v1552751288947" width="500" height="500" frameborder="0" style="border:0" allowfullscreen></iframe>
+                </td>
+                <td>
+                  <p><span class="titletext2">Area of Service</span></p>
+                  <p class="p1"><span>For several years, Community Care & Hospice has provided end-of-life care, bereavement services, and caregiver support throughout Ventura and Greater Los Angeles. Our services have grown to meet the requirements of a diverse multi-county area.</span></p>
+                  <iframe src="https://www.google.com/maps/d/u/1/embed?mid=1ibkTMh-L77xvGhHFyaRzTKJ-qqqYJ1CT" width="500" height="500"></iframe>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </div>
+      </div>
+      {% include "../base/footer.html" %}
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous" defer></script>
+    <script type="text/javascript" src="{% static 'website/js/navbar.js' %}" defer></script>
+  </body>
+</html>
+

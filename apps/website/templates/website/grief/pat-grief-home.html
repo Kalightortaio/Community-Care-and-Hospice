@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- Developed by Krishna Kokatay, 2019. Visit my website: www.kalightortaio.com -->
+    <meta charset="utf-8">
+    <meta id="viewport" name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Community Care</title>
+    {% load static %}
+    <link rel="icon" href="{% static '/website/images/favicon.png' %}">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="{% static 'website/css/footer.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'website/css/pat-base.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'website/css/pat-grief-home.css' %}">
+  </head>
+  <body>
+    {% include "../base/pat-navbar.html" %}
+      <div id="content-wrapper">
+        <div class="centered hidelink">
+          <img src="{% static '/website/images/bench.png' %}" height="210" width="1140" alt="Bench on beach during sunset" />
+          <div class="sitemap">
+            <span><a href="/patients-and-caregivers/pages/home">Patients and Caregivers&nbsp;</a></span>
+            <span class="fa fa-caret-right"></span>
+            <span><a href="/patients-and-caregivers/grief-services/pages/home">&nbsp;Grief Services&nbsp;</a></span>
+          </div>
+          <div class="content">
+            <span class="title">Welcome to Community Care Grief Services</span>
+            <p><span class="titletext">Community Care Grief Services is a community based grief support program that provides services throughout Ventura and Greater Los Angeles. We offer support to anyone who has experienced a loss due to death.</span></p>
+            <div class="divider"></div>
+            <img src="{% static '/website/images/grief.png' %}" width="320" height="260" alt="replacemelater"/>
+            <p class="p1"><span>Our mission is to assist the bereaved as they move through the grief process by providing resources, education and training, individual grief support for hospice families, and help to any affected.</span></p>
+            <p class="p2"><span class="bold">Our Services</span></p>
+            <p class="p2"><span>Community Care Grief Services provides comprehensive offerings of grief programs to anyone needing support on their grief journey. For our hospice families, we provide individual support for a minimum of 13 months after the death of a loved one.</span></p>
+            <p class="p2"><span>In addition, our grief resources are available to the entire Ventura and Greater Los Angeles region. We will strive to continue to provide comprehensive and helpful resources both online and in person, information which is helpful and imperative to the bereavement process for our community.</span></p>
+            <p class="p2"><span>Services are available not only at one localized area, but on-site in the home, or other applicable residency. We seek to accommodate our patients and their families, no matter the location, as per our <a href="/patients-and-caregivers/our-services/pages/care-settings" class="showlink">Care Settings</a></span></p>
+          </div>
+          <div class="side-content">
+            <ul class="tableofcontents">
+              <li>
+                <a href="/patients-and-caregivers/grief-services/pages/FAQ"><span>FAQ</span></a>
+              </li>
+              <li>
+                <a href="/patients-and-caregivers/grief-services/pages/resources"><span>Resources</span></a>
+              </li>
+              <li>
+                <a href="/patients-and-caregivers/grief-services/pages/reading-and-information"><span>Reading and Information</span></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      {% include "../base/footer.html" %}
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous" defer></script>
+    <script type="text/javascript" src="{% static 'website/js/navbar.js' %}" defer></script>
+  </body>
+</html>
+

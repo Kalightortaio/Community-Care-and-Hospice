@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- Developed by Krishna Kokatay, 2019. Visit my website: www.kalightortaio.com -->
+    <meta charset="utf-8">
+    <meta id="viewport" name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Community Care</title>
+    {% load static %}
+    <link rel="icon" href="{% static '/website/images/favicon.png' %}">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="{% static 'website/css/footer.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'website/css/pat-base.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'website/css/pat-services-home.css' %}">
+  </head>
+  <body>
+    {% include "../base/pat-navbar.html" %}
+      <div id="content-wrapper">
+        <div class="centered hidelink">
+          <img src="{% static '/website/images/laughing.png' %}" height="210" width="1140" alt="Family smiling" />
+          <div class="sitemap">
+            <span><a href="/patients-and-caregivers/pages/home">Patients and Caregivers&nbsp;</a></span>
+            <span class="fa fa-caret-right"></span>
+            <span><a href="/patients-and-caregivers/our-services/pages/home">&nbsp;Our Services</a></span>
+          </div>
+          <div class="content">
+            <span class="title">Our Services</span>
+            <p><span class="titletext">For several years, Community Care & Hospice has provided end-of-life care, bereavement services, and caregiver support throughout Ventura and Greater Los Angeles.</span></p>
+            <p><span class="titletext">Our services have grown to meet the requirements of a diverse multi-county area. As your needs change, our staff and services respond with customized care.</span></p>
+            <div class="divider"></div>
+            <p class="p1"><span>Our comprehensive and compassionate services and programs include:</span></p>
+            <ul>
+              <li><span>Dedicated triage and on-call team to meet unexpected patient and family needs after hours, weekends and holidays.</span></li>
+              <li><span>Home delivery of hospice-related medications. We deliver the equipment, the supplies and your medications to make you and your loved ones lives as easy as possible.</span></li>
+              <li><span>Specialized and complex care delivered for specific illnesses such as heart failure, dementia, and renal disease.</span></li>
+              <li><span>Home visits by physicians and nurse practitioners. We are happy to work in partnership with your medical team, a practice we have been doing for many years.</span></li>
+              <li><span>Spiritual care services for all faiths.</span></li>
+              <li><span>Services from unique therapies, to an honest commitment from our staff to our patients and families, we at Community Care & Hospice strive to fulfil our mission.</span></li>
+            </ul>
+          </div>
+          <div class="side-content">
+            <ul class="tableofcontents">
+              <li>
+                <a href="/patients-and-caregivers/our-services/pages/care-settings"><span>Care Settings</span></a>
+              </li>
+              <li>
+                <a href="/patients-and-caregivers/our-services/pages/quality-assurance"><span>Quality Assurance</span></a>
+              </li>
+              <li>
+                <a href="/patients-and-caregivers/our-services/pages/caregiver-training-guide"><span>Caregiver Training Guide</span></a>
+              </li>
+              <li>
+                <a href="/patients-and-caregivers/contact-us/pages/home"><span>Contact Us</span></a>
+              </li>
+            </ul>
+            <div class="referralbox">
+              <span class="title">Need Help?</span><br />
+              <p><span>We're here to help you.</span></p>
+              <div class="fa fa-caret-down fa-3x"></div>
+            </div>
+            <img src="{% static 'website/images/phone-favicon.ico' %}" height="16" width="16" alt="phone_icon">
+            <a href="tel:8056678558"><span class="blue">&nbsp;&nbsp;805.667.8558&nbsp;</span></a>
+          </div>
+        </div>
+      </div>
+      {% include "../base/footer.html" %}
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous" defer></script>
+    <script type="text/javascript" src="{% static 'website/js/navbar.js' %}" defer></script>
+  </body>
+</html>
+

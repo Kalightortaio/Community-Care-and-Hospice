@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- Developed by Krishna Kokatay, 2019. Visit my website: www.kalightortaio.com -->
+    <meta charset="utf-8">
+    <meta id="viewport" name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Community Care</title>
+    {% load static %}
+    <link rel="icon" href="{% static '/website/images/favicon.png' %}">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="{% static 'website/css/footer.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'website/css/pat-base.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'website/css/pat-about-cp.css' %}">
+  </head>
+  <body>
+    {% include "../base/pat-navbar.html" %}
+      <div id="content-wrapper">
+        <div class="centered hidelink">
+          <img src="{% static '/website/images/gazebo.png' %}" height="210" width="1140" alt="Family smiling" />
+          <div class="sitemap">
+            <span><a href="/patients-and-caregivers/pages/home">Patients and Caregivers&nbsp;</a></span>
+            <span class="fa fa-caret-right"></span>
+            <span><a href="/patients-and-caregivers/about-us/pages/home">&nbsp;About Us&nbsp;</a></span>
+            <span class="fa fa-caret-right"></span>
+            <span><a href="/patients-and-caregivers/about-us/pages/communication-policy">&nbsp;Communication Policy&nbsp;</a></span>
+          </div>
+          <div class="content">
+            <span class="title">Communication Policy</span>
+            <p class="p1"><span>At Community Care & Hospice, LLC. courtesy, tact and consideration should guide each employee in relationships with fellow workers and the public. It is mandatory that each employee in this organization show maximum respect to every other person in the organization and other contacts in a business context. The purpose of communication should be to help others and to make our business run as effectively as possible, thereby gaining the respect of our colleagues and patients.</span></p>
+            <ul>
+              <li><span class="p1">Courtesy, friendliness, and a spirit of helpfulness are important and guide the company’s dealings with employees and patients.</span></li>
+              <li><span class="p1">Differences of opinion should be handled privately and discreetly. Gossip and backbiting are to be avoided. Communicate directly with the person or persons involved to resolve differences.</span></li>
+              <li><span class="p1">Conservative criticism — that which will improve business by clarifying or instructing — should be welcomed when delivered with respect and tact. Destructive criticism — that which is designed to harm business or another person — is not to be practiced.</span></li>
+              <li><span class="p1">Employees should strive to maintain a civil work atmosphere at all times and refrain from shouting, yelling, using vulgarities or swearing at or in the presence of co-workers or patients.</span></li>
+            </ul>
+            <p class="p1"><span>The standard of Community Care & Hospice, LLC. is a work environment free from disparaging remarks about religion, ethnicity, sexual preferences, appearance and other non-work related matters. Each employee has the responsibility to foster an understanding of others’ differences in order to create an environment where those differences contribute to a better organization.Inappropriate remarks based on any of the following are not tolerated and such behavior will result in immediate termination of employment: sex, gender, race, religion, ethnic origin, physical attributes, mental or physical disability, color, ancestry, sexual orientation, marital status, pregnancy, medical condition, citizenship and/or age.Inappropriate remarks include those that treat a group of people in a uniform way, assign a behavior in a disparaging way, imply inferiority of a group, are supposedly funny at someone else’s expense, and/or cause embarrassment or distress to others based on comments about a particular group of people.</span></p>
+            <p class="p1 italic"><span>The information contained in this article is intended to provide useful information on the topic covered, but should not be construed as legal advice or a legal opinion.</span></p>
+          </div>
+          <div class="side-content">
+            <ul class="tableofcontents">
+              <li>
+                <a href="/patients-and-caregivers/about-us/pages/history"><span>History</span></a>
+              </li>
+              <li>
+                <a href="/patients-and-caregivers/about-us/pages/non-discrimination-statement"><span>Non Discrimination Statement</span></a>
+              </li>
+              <li>
+                <a href="/patients-and-caregivers/about-us/pages/notice-of-privacy-practices"><span>Notice of Privacy Practices</span></a>
+              </li>
+              <li>
+                <a href="/patients-and-caregivers/about-us/pages/affiliations-and-collaborations"><span>Affiliations and Collaborations</span></a>
+              </li>
+              <li>
+                <a href="/patients-and-caregivers/about-us/pages/licensure-and-accreditation"><span>Lincensure and Accreditation</span></a>
+              </li>
+              <li>
+                <a href="/patients-and-caregivers/about-us/pages/communication-policy" class="active"><span>Communication Policy</span></a>
+              </li>
+              <li>
+                <a href="/patients-and-caregivers/about-us/pages/sitemap"><span>Sitemap</span></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      {% include "../base/footer.html" %}
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous" defer></script>
+    <script type="text/javascript" src="{% static 'website/js/navbar.js' %}" defer></script>
+  </body>
+</html>
+

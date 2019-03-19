@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- Developed by Krishna Kokatay, 2019. Visit my website: www.kalightortaio.com -->
+    <meta charset="utf-8">
+    <meta id="viewport" name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Community Care</title>
+    {% load static %}
+    <link rel="icon" href="{% static '/website/images/favicon.png' %}">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="{% static 'website/css/footer.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'website/css/pat-base.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'website/css/pat-needs-explained.css' %}">
+  </head>
+  <body>
+    {% include "../base/pat-navbar.html" %}
+      <div id="content-wrapper">
+        <div class="centered hidelink">
+          <img src="{% static '/website/images/needbanner.png' %}" height="210" width="1140" alt="Family smiling" />
+          <div class="sitemap">
+            <span><a href="/patients-and-caregivers/pages/home">Patients and Caregivers&nbsp;</a></span>
+            <span class="fa fa-caret-right"></span>
+            <span><a href="/patients-and-caregivers/your-needs/pages/home">&nbsp;Your Needs&nbsp;</a></span>
+            <span class="fa fa-caret-right"></span>
+            <span><a href="/patients-and-caregivers/your-needs/pages/hospice-explained">&nbsp;Hospice Care Explained</a></span>
+          </div>
+          <div class="content">
+            <span class="title">Hospice Care Explained</span>
+            <p><span class="titletext">We assist those who have chronic or serious illnesses, no matter the stage or the complexity of help needed. We support caregivers who can feel overwhelmed and comfort those who are grieving a loss.</span></p>
+            <div class="divider"></div>
+            <button>What is Hospice Care?<div class="buttonindicator fa fa-plus"></div></button>
+            <div class="hiddenbox">
+              <p>Hospice care is about taking control so that each moment of every day is the best that it can possibly be. It is comfort-focused care that includes pain and symptom management and emotional and spiritual support. The circle of care also extends to caregivers and loved ones. With the emphasis on comfort, loved ones are able to spend time simply being together. Pain is reduced. Anxiety is relieved. For caregivers, the stress of caring for someone with a serious illness is diminished by having a team of compassionate professionals by your side.</p>
+            </div>
+            <p class="p1"><span>Through our hospice care services, we care for patients of all ages <a href="javascript:;">wherever they live.</a> Illnesses our patients face may be manageable for years with the right medication, therapies and nutrition. Or they may be acute and difficult to manage without significant help. Having control over choices that best serve you, and aligning with those who will help facilitate those choices, is what matters most to us. In that light, your path can truly be embraced with dignity.</span></p>
+            <p class="p2"><span><span class="bold">Hospice care is a medical specialty</span>, so it's important to compare health care providers and to choose wisely.</span></p>
+            <img src="{% static '/website/images/holdinghands.png' %}" height="240" width="330" alt="replacemelater" />
+            <p class="p3"><span>Community Care & Hospice offers your family the region's most compassionate team of certified hospice and medical care progressionals. Many of our nurses have obtained distinct credentials through rigerous education and training.</span></p>
+          </div>
+          <div class="side-content">
+            <ul class="tableofcontents">
+              <li>
+                <a href="/patients-and-caregivers/your-needs/pages/hospice-explained" class="active"><span>Hospice Care Explained</span></a>
+              </li>
+              <li>
+                <a href="/patients-and-caregivers/your-needs/pages/do-you-need-hospice"><span>Do You Need Hospice?</span></a>
+              </li>
+              <li>
+                <a href="/patients-and-caregivers/your-needs/pages/how-is-hospice-paid-for"><span>How is Hospice Paid For?</span></a>
+              </li>
+              <li>
+                <a href="/patients-and-caregivers/your-needs/pages/you-have-a-choice"><span>You Have a Right to Choice</span></a>
+              </li>
+              <li>
+                <a href="/patients-and-caregivers/our-services/pages/home"><span>Our Services</span></a>
+              </li>
+            </ul>
+            <div class="referralbox">
+              <span class="title">We Can Help</span><br />
+              <p><span>Speak with the referral team by contacting us, available during all days of the week. An in-person visit can also be scheduled if it is needed.</span></p>
+              <div class="fa fa-caret-down fa-3x"></div>
+            </div>
+            <span class="blue">Referral Team</span><br />
+            <img src="{% static 'website/images/phone-favicon.ico' %}" height="16" width="16" alt="phone_icon">
+            <a href="tel:8056678558"><span class="blue">&nbsp;&nbsp;805.667.8558&nbsp;</span></a>
+            <div class="divider"></div>
+          </div>
+        </div>
+      </div>
+      {% include "../base/footer.html" %}
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous" defer></script>
+    <script type="text/javascript" src="{% static 'website/js/navbar.js' %}" defer></script>
+    <script type="text/javascript" src="{% static 'website/js/hiddenbox.js' %}" defer></script>
+  </body>
+</html>

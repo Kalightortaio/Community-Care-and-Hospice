@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- Developed by Krishna Kokatay, 2019. Visit my website: www.kalightortaio.com -->
+    <meta charset="utf-8">
+    <meta id="viewport" name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Community Care</title>
+    {% load static %}
+    <link rel="icon" href="{% static '/website/images/favicon.png' %}">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="{% static 'website/css/footer.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'website/css/prof-base.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'website/css/prof-reimbursement.css' %}">
+  </head>
+  <body>
+    {% include "./prof-navbar.html" %}
+      <div id="content-wrapper">
+        <div class="centered hidelink">
+          <div class="sitemap">
+            <span><a href="/professionals/pages/home">Professionals&nbsp;</a></span>
+            <span class="fa fa-caret-right"></span>
+            <span><a href="/professionals/pages/reimbursement-of-services">&nbsp;Reimbursement of Services</a></span>
+          </div>
+          <div class="content">
+            <span class="title">Reimbursement for Services</span>
+            <p><span class="titletext2">Medicare</span></p>
+            <p class="p1"><span>Hospice care is a covered benefit for all Medicare beneficiaries. Coverage includes the services of the hospice team, medical supplies and prescriptions for pain management and comfort care relating to the patient's terminal illness. Standard Medicare benefits also continue for medical treatments unrelated to the terminal illness.​</span></p>
+            <p><span class="titletext2">​​Physician Billing for Hospice Care</span></p>
+            <p class="p1"><span>Here are some general parameters for Medicare hospice billing:​</span></p>
+            <ul>
+              <li><span>Physicians utilize modifier GV for services related to the hospice diagnosis.</span></li>
+              <li><span>Physicians utilize modifier GW for services unrelated to the hospice diagnosis.</span></li>
+              <li><span>Physician Billing for Care Plan Oversight (CPO)</span></li>
+              <li><span>Physicians are entitled to bill Medicare for CPO requiring more than 30 minutes per month.</span></li>
+              <li><span>Physicians bill the Part B carrier using CPT code G0182</span></li>
+              <li><span>In order to be eligible, physicians must have a <span class="bold">face-to-face encounter with the patient in the six months prior</span> to the CPO being billed.</span></li>
+              <li><span>There is a limit of one bill per patient, per month.</span></li>
+              <li><span>In most circumstances, CPO billing does not apply for physicians working in Long Term Care facilities.</span></li>
+            </ul>
+            <p class="p1"><span>​This code allows for physician communications to the healthcare professionals involved in the patient care, which includes paperwork or phone calls.</span></p>
+            <p class="p1"><span>​For more information, please visit the <a href="https://www.nhpco.org/" target="_blank"><span class="showlink">National Hospice and Palliative Care Organization.</span></a></span></p>
+            <p><span class="titletext2">Hospital and Facility Billing for Hospice Care</span></p>
+            <p class="p1"><span>​Community Care & Hospice's Professional Relations team collaborates with hospitals, nursing homes, assisted living and other residential care settings to establish individual billing agreements.<span class="bold">To arrange a contract or for more information, contact our team at 805.667.8558</span></span></p>
+          </div>
+        </div>
+      </div>
+      {% include "./footer.html" %}
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous" defer></script>
+    <script type="text/javascript" src="{% static 'website/js/navbar.js' %}" defer></script>
+  </body>
+</html>
+

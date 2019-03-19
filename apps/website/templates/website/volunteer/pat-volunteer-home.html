@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- Developed by Krishna Kokatay, 2019. Visit my website: www.kalightortaio.com -->
+    <meta charset="utf-8">
+    <meta id="viewport" name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Community Care</title>
+    {% load static %}
+    <link rel="icon" href="{% static '/website/images/favicon.png' %}">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="{% static 'website/css/footer.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'website/css/pat-base.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'website/css/pat-volunteer-home.css' %}">
+  </head>
+  <body>
+    {% include "../base/pat-navbar.html" %}
+      <div id="content-wrapper">
+        <div class="centered hidelink">
+          <img src="{% static '/website/images/volunteer.png' %}" height="210" width="1140" alt="Family smiling" />
+          <div class="sitemap">
+            <span><a href="/patients-and-caregivers/pages/home">Patients and Caregivers&nbsp;</a></span>
+            <span class="fa fa-caret-right"></span>
+            <span><a href="/patients-and-caregivers/volunteer-and-community/pages/home">&nbsp;Volunteer and Community&nbsp;</a></span>
+          </div>
+          <div class="content">
+            <span class="title">Volunteer and Community</span>
+            <p><span class="titletext">Community Care & Hospice has been a member of the Ventura and Greater Los Angeles Community for several years now. We are your neighbors, friends, caregivers, and family members. With growing staff and volunteers, our dedicated team members live, play, shop, worship, and work in every corner of our service area.</span></p>
+            <div class="divider"></div>
+            <p class="titletext2"><span>Getting Started</span></p>
+            <p class="p1"><span>There are many ways we reach out and interact with the community and we are grateful that the community supports our mission so generously with talent, time and treasure. And our devoted hospice volunteers are ordinary people of all ages, from teenagers to seniors, with an extraordinary love and a common bond of concern for others.</span></p>
+            <p class="p1"><span>They contribute to the overall well-being of our community one person, one family at a time. Volunteers help in countless ways and are limited only by their imagination.</span></p>
+            <p class="p1"><span>Volunteering at Community Care & Hospice can be a life-changing experience. From helping with patients and their caregivers to assisting at our headquarters to a corporation providing a day of service, volunteering at Community Care & Hospice is one of the most rewarding things you'll do.</span></p>
+          </div>
+          <div class="side-content">
+            <ul class="tableofcontents">
+              <li>
+                <a href="/patients-and-caregivers/volunteer-and-community/pages/prospective-volunteers"><span>Prospective Volunteers</span></a>
+              </li>
+              <li>
+                <a href="/patients-and-caregivers/news-and-media/pages/home"><span>News and Media</span></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      {% include "../base/footer.html" %}
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous" defer></script>
+    <script type="text/javascript" src="{% static 'website/js/navbar.js' %}" defer></script>
+  </body>
+</html>
+

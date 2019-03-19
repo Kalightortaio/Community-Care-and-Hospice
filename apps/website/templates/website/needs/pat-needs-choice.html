@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- Developed by Krishna Kokatay, 2019. Visit my website: www.kalightortaio.com -->
+    <meta charset="utf-8">
+    <meta id="viewport" name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Community Care</title>
+    {% load static %}
+    <link rel="icon" href="{% static '/website/images/favicon.png' %}">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="{% static 'website/css/footer.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'website/css/pat-base.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'website/css/pat-needs-choice.css' %}">
+  </head>
+  <body>
+    {% include "../base/pat-navbar.html" %}
+      <div id="content-wrapper">
+        <div class="centered hidelink">
+          <img src="{% static '/website/images/needbanner.png' %}" height="210" width="1140" alt="Family smiling" />
+          <div class="sitemap">
+            <span><a href="/patients-and-caregivers/pages/home">Patients and Caregivers&nbsp;</a></span>
+            <span class="fa fa-caret-right"></span>
+            <span><a href="/patients-and-caregivers/your-needs/pages/home">&nbsp;Your Needs&nbsp;</a></span>
+            <span class="fa fa-caret-right"></span>
+            <span><a href="/patients-and-caregivers/your-needs/pages/you-have-a-choice">&nbsp;You Have a Right to Choice</a></span>
+          </div>
+          <div class="content">
+            <span class="title">You Have a Right to Choice</span>
+            <p><span class="titletext">Why choose Community Care & Hospice?</span></p>
+            <p class="p1"><span>For several years, Community Care & Hospice has provided end-of-life care, bereavement services, and caregiver support throughout Ventura and Greater Los Angeles. We are a regionally acclaimed hospice agency providing care in a variety of settings, including:</span></p>
+            <ul>
+              <li>
+                <span>Private residences - the majority of our patients recieve care in their homes.</span>
+              </li>
+              <li>
+                <span> Assisted living and retirement communities</span>
+              </li>
+              <li>
+                <span>Nursing Homes</span>
+              </li>
+            </ul>
+            <p class="p2"><span>Our services have grown to meet the requirements of a diverse multi-county area. As your needs change, our staff and services respond with customized care.</span></p>
+            <div class="divider"></div>
+            <p><span class="titletext">Special Programs & Features Include:</span></p>
+            <ul>
+              <li>
+                <span>We are California's local and community based hospice. Some hospices are profit driven, out-of-state, coporations with local satellite operations, but we pride ourselves on the connections we have developed within our community - neighbors caring for neighbors.</span>
+              </li>
+              <li>
+                <span>Some healthcare systems require that you choose their hospice in order to remain in their system. We are committed to working with your preferred physician and provider to collaborate on care. You have a choice in your hospice provider. In a hospital setting, you have a right to informed consent.</span>
+              </li>
+              <li>
+                <span>We are known for our response time, as we provide care to patients 24 hours a day, 365 days a year. Our goal is to be there for the patient and families, in care and presence of mind.</span>
+              </li>
+              <li>
+                <span>Dedicated triage and on-call team to meet unexpected patient and family needs after hours, weekends and holidays.</span>
+              </li>
+              <li>
+                <span>Home delivery of hospice-related medications, equipment and supplies.</span>
+              </li>
+              <li>
+                <span>Specialized and complex care delivered for specific illnesses such as heart failure, dementia, and renal disease.</span>
+              </li>
+              <li>
+                <span>Home visits by physicians and nurse practitioners. We are happy to work in partnership with your medical team, a practice we have been doing for many years.</span>
+              </li>
+              <li>
+                <span>Caregiver education and training including selected media, resources, and customized guidance to meet your individual needs.</span>
+              </li>
+              <li>
+                <span>Spiritual care services for all faiths.</span>
+              </li>
+              <li>
+                <span>Services from unique therapies, to an honest commitment from our staff to our patients and families, we at Community Care & Hospice strive to fulfil our mission.</span>
+              </li>
+            </ul>
+          </div>
+          <div class="side-content">
+            <ul class="tableofcontents">
+              <li>
+                <a href="/patients-and-caregivers/your-needs/pages/hospice-explained"><span>Hospice Care Explained</span></a>
+              </li>
+              <li>
+                <a href="/patients-and-caregivers/your-needs/pages/do-you-need-hospice"><span>Do You Need Hospice?</span></a>
+              </li>
+              <li>
+                <a href="/patients-and-caregivers/your-needs/pages/how-is-hospice-paid-for"><span>How is Hospice Paid For?</span></a>
+              </li>
+              <li>
+                <a href="/patients-and-caregivers/your-needs/pages/you-have-a-choice" class="active"><span>You Have a Right to Choice</span></a>
+              </li>
+              <li>
+                <a href="/patients-and-caregivers/our-services/pages/home"><span>Our Services</span></a>
+              </li>
+            </ul>
+            <div class="referralbox">
+              <span class="title">We Can Help</span><br />
+              <p><span>Speak with the referral team by contacting us, available during all days of the week. An in-person visit can also be scheduled if it is needed.</span></p>
+              <div class="fa fa-caret-down fa-3x"></div>
+            </div>
+            <span class="blue">Referral Team</span><br />
+            <img src="{% static 'website/images/phone-favicon.ico' %}" height="16" width="16" alt="phone_icon">
+            <a href="tel:8056678558"><span class="blue">&nbsp;&nbsp;805.667.8558&nbsp;</span></a>
+            <div class="divider"></div>
+          </div>
+        </div>
+      </div>
+      {% include "../base/footer.html" %}
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous" defer></script>
+    <script type="text/javascript" src="{% static 'website/js/navbar.js' %}" defer></script>
+    <script type="text/javascript" src="{% static 'website/js/hiddenbox.js' %}" defer></script>
+  </body>
+</html>
+

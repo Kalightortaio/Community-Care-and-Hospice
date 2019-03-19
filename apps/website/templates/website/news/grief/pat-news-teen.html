@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- Developed by Krishna Kokatay, 2019. Visit my website: www.kalightortaio.com -->
+    <meta charset="utf-8">
+    <meta id="viewport" name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Community Care</title>
+    {% load static %}
+    <link rel="icon" href="{% static '/website/images/favicon.png' %}">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="{% static 'website/css/footer.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'website/css/pat-base.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'website/css/pat-news-grief-article.css' %}">
+  </head>
+  <body>
+    {% include "../../base/pat-navbar.html" %}
+      <div id="content-wrapper">
+        <div class="centered hidelink">
+          <img src="{% static '/website/images/news.png' %}" height="210" width="1140" alt="Family smiling" />
+          <div class="sitemap">
+            <span><a href="/patients-and-caregivers/pages/home">Patients and Caregivers&nbsp;</a></span>
+            <span class="fa fa-caret-right"></span>
+            <span><a href="/patients-and-caregivers/volunteer-and-community/pages/home">&nbsp;Volunteer and Community&nbsp;</a></span>
+            <span class="fa fa-caret-right"></span>
+            <span><a href="/patients-and-caregivers/news-and-media/pages/home">&nbsp;News and Media&nbsp;</a></span>
+            <span class="fa fa-caret-right"></span>
+            <span><a href="/patients-and-caregivers/news-and-media/pages/about-grief">&nbsp;About Grief&nbsp;</a></span>
+            <span class="fa fa-caret-right"></span>
+            <span><a href="/patients-and-caregivers/news-and-media/pages/about-grief/tips-for-bereaved-teen-coping">&nbsp;Teen Grief: Tips for Coping&nbsp;</a></span>
+          </div>
+          <div class="content">
+            <img class="bufferdown" src="{% static '/website/images/teenalone.png' %}" width="650" height="425" alt="replacemelater" />
+            <span class="title">Teen Grief: Tips for Coping</span>
+            <p class="p1"><span>​During grief, teens experience all kinds of emotions. They may be overwhelming, frightening, and intense: they may feel out of control.</span></p>
+            <p class="p1"><span>The variety of grief reactions is endless and includes physical, behavioral, emotional/social, intellectual/cognitive and spiritual reactions.</span></p>
+            <p class="p1"><span class="bold">Here are some tips for teens coping with grief:</span></p>
+            <p class="p1"><span><span class="bold">Shock, disbelief:</span> Talk, talk, talk. Grief needs to become real before you can go on with the mourning process. Avoiding the pain is not possible.</span></p>
+            <p class="p1"><span><span class="bold">Denial:</span> Understand that you cannot escape from grief. So talk about your pain.
+Anger: You have every right to be angry. But you don’t have a right to take out that anger on others – or on yourself. If you feeling angry, try talking to friends, walking, listening to music, journaling.</span></p>
+            <p class="p1"><span><span class="bold">Guilt and regrets:</span> If only I hadn’t said… I wish I had… Give yourself a break. When someone dies we often second-guess ourselves, but the truth is that awful things happen and there is little we can do about that.</span></p>
+            <p class="p1"><span><span class="bold">Fears, worries:</span> It’s difficult not to worry that something will happen to someone else you love or to you. Try to identify what your worries are. Then, talk to someone about those worries. Is anything in your control? If so, take a responsible action. If not, try some relaxation.</span></p>
+            <p class="p1"><span><span class="bold">Inability to sleep:</span> Rest, rest, rest. Grief is draining.</span></p>
+            <p class="p1"><span><span class="bold">Inability to eat:</span> Watch yourself. Grief can sometimes make you “forget” to eat or have not cares about what you are eating. Try to sit down at mealtime and eat.</span></p>
+            <p class="p1"><span><span class="bold">Inability to remember:</span> You forgot about the paper that’s due? You locked your keys in the car? Write things down. Organize for the next day the night before. Have friends call with reminders about assignments.</span></p>
+            <p class="p1"><span><span class="bold">Inability to concentrate:</span> How can you focus when your mind is wandering? Allow more time to do homework. Talk to your teachers. Be extra careful when doing any task that requires your complete attention, ESPECIALLY driving.</span></p>
+          </div>
+          <div class="side-content">
+            <ul class="tableofcontents">
+              <li>
+                <a href="/patients-and-caregivers/news-and-media/pages/journey"><span>Journey</span></a>
+              </li>
+              <li>
+                <a href="/patients-and-caregivers/news-and-media/pages/about-grief" class="active"><span>About Grief</span></a>
+              </li>
+              <li>
+                <a href="/patients-and-caregivers/news-and-media/pages/community-connections"><span>Community Connections</span></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      {% include "../../base/footer.html" %}
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous" defer></script>
+    <script type="text/javascript" src="{% static 'website/js/navbar.js' %}" defer></script>
+  </body>
+</html>

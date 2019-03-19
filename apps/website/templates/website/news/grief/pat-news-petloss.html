@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- Developed by Krishna Kokatay, 2019. Visit my website: www.kalightortaio.com -->
+    <meta charset="utf-8">
+    <meta id="viewport" name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Community Care</title>
+    {% load static %}
+    <link rel="icon" href="{% static '/website/images/favicon.png' %}">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="{% static 'website/css/footer.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'website/css/pat-base.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'website/css/pat-news-grief-article.css' %}">
+  </head>
+  <body>
+    {% include "../../base/pat-navbar.html" %}
+      <div id="content-wrapper">
+        <div class="centered hidelink">
+          <img src="{% static '/website/images/news.png' %}" height="210" width="1140" alt="Family smiling" />
+          <div class="sitemap">
+            <span><a href="/patients-and-caregivers/pages/home">Patients and Caregivers&nbsp;</a></span>
+            <span class="fa fa-caret-right"></span>
+            <span><a href="/patients-and-caregivers/volunteer-and-community/pages/home">&nbsp;Volunteer and Community&nbsp;</a></span>
+            <span class="fa fa-caret-right"></span>
+            <span><a href="/patients-and-caregivers/news-and-media/pages/home">&nbsp;News and Media&nbsp;</a></span>
+            <span class="fa fa-caret-right"></span>
+            <span><a href="/patients-and-caregivers/news-and-media/pages/about-grief">&nbsp;About Grief&nbsp;</a></span>
+            <span class="fa fa-caret-right"></span>
+            <span><a href="/patients-and-caregivers/news-and-media/pages/about-grief/pet-loss">&nbsp;Pet Loss&nbsp;</a></span>
+          </div>
+          <div class="content">
+            <img class="bufferdown" src="{% static '/website/images/pet.png' %}" width="650" height="425" alt="replacemelater" />
+            <span class="title">Pet Loss</span>
+            <p class="p1"><span>"It was only a pet…"</span></p>
+            <p class="p1"><span>The love relationship between pets and their owners take on many qualities – companionship, comfort, security and love. When a pet dies, these aspects of the relationship are lost and the grief can be intense. Yet society often disenfranchises pet loss with cliché’s and unhelpful comments such as you can always get another one.</span></p>
+            <p class="p1"><span>The death of a pet can be very significant especially when you look at the nature of the pet/owner attachment. Some children lay claim to the family pet – they feed, clean up after, and play tirelessly with the beloved animal. The death of a pet is often a child’s first major loss. Isolated older adults often have significant relationships with their pets and the death of a pet can trigger grief reactions from other losses. Many hospice patients worry about what will happen to their pet when they die and only find peace once their pet has been placed in a home. Indeed, pets have become family members.</span></p>
+            <p class="p1"><span>If you are a multiple pet owner, you may find your other pets grieving. This has happened to me several times. Your pets will miss the departed pet. Just take note and treat them with loving kindness.</span></p>
+            <p class="p1"><span>Some helpful hints for managing pet loss:</span></p>
+            <ul>
+              <li><span class="p1">Create an atmosphere where losses can be felt and talked about openly.</span></li>
+              <li><span class="p1">Confide in someone who is an animal lover. They are more likely to offer an empathetic ear.</span></li>
+              <li><span class="p1">Rituals can be helpful. It may seem silly to have a funeral for a pet, but is often beneficial. Design a ritual that provides meaning to you and your family. Don’t forget to involve your children.</span></li>
+              <li><span class="p1">Resist the impulse to replace the pet too quickly. Take the time to work through your grief and loss before developing a relationship with a new pet. Also, other family members may feel that you are being disloyal to your deceased pet.</span></li>
+              <li><span class="p1">Memorialize your pet. With pets, as with people, poems, pictures, music, hugs, laughter, memories and tears will help your special relationship with your pet live on.</span></li>
+            </ul>
+          </div>
+          <div class="side-content">
+            <ul class="tableofcontents">
+              <li>
+                <a href="/patients-and-caregivers/news-and-media/pages/journey"><span>Journey</span></a>
+              </li>
+              <li>
+                <a href="/patients-and-caregivers/news-and-media/pages/about-grief" class="active"><span>About Grief</span></a>
+              </li>
+              <li>
+                <a href="/patients-and-caregivers/news-and-media/pages/community-connections"><span>Community Connections</span></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      {% include "../../base/footer.html" %}
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous" defer></script>
+    <script type="text/javascript" src="{% static 'website/js/navbar.js' %}" defer></script>
+  </body>
+</html>
+

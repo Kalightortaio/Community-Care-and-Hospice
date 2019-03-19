@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- Developed by Krishna Kokatay, 2019. Visit my website: www.kalightortaio.com -->
+    <meta charset="utf-8">
+    <meta id="viewport" name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Community Care</title>
+    {% load static %}
+    <link rel="icon" href="{% static '/website/images/favicon.png' %}">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="{% static 'website/css/footer.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'website/css/pat-base.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'website/css/pat-giving-charity.css' %}">
+  </head>
+  <body>
+    {% include "../base/pat-navbar.html" %}
+      <div id="content-wrapper">
+        <div class="centered hidelink">
+          <div class="sitemap">
+            <span><a href="/patients-and-caregivers/pages/home">Patients and Caregivers&nbsp;</a></span>
+            <span class="fa fa-caret-right"></span>
+            <span><a href="/patients-and-caregivers/giving-back/pages/home">&nbsp;Giving Back&nbsp;</a></span>
+            <span class="fa fa-caret-right"></span>
+            <span><a href="/patients-and-caregivers/giving-back/pages/donate-to-charity">&nbsp;Charities&nbsp;</a></span>
+          </div>
+          <div class="content">
+            <span class="title">Charities</span>
+            <p><span class="titletext">​"We can't help everyone, but everyone can help someone"<br />- Dr. Loretta Scott</span></p>
+            <div class="divider"></div>
+            <p class="p1"><span>We’ve all had times in our lives when we needed a helping hand. For seniors, that help might involve some assistance with household chores, preparing meals, accessing educational opportunities, or dealing with health issues, among others.​</span></p>
+            <p class="p1"><span>We researched seven charities that benefit seniors, each of which has earned a sound reputation for reliable support by well-trained volunteers and/or professionals. Since many of these organizations do rely on volunteers, if you find something that intrigues you, you might want to consider volunteering your time and skills.​</span></p>
+            <ol>
+              <li><p class="p1"><span><a href="https://alzfdn.org/" target="_blank" class="showlink">The Alzheimer’s Foundation of America</a> provides support and information to those inflicted with Alzheimer's and to their caregivers and loves ones.</span></p></li>
+              <li><p class="p1"><span><a href="https://www.honorflight.org/" target="_blank" class="showlink">Honor Flight Network</a> aims to provide veterans the opportunity for close, if possible, by giving them the chance to share a special experience with other men and women who have served.</span></p></li>
+              <li><p class="p1"><span><a href="https://www.mealsonwheelsamerica.org/" target="_blank" class="showlink">Meals on Wheels America</a> provides food on delivery, bringing aid to seniors who have trouble obtaining or preparing the food they need.</span></p></li>
+              <li><p class="p1"><span><a href="http://www.petsfortheelderly.org/" target="_blank" class="showlink">Pets for the Elderly</a> aims to provide companionship between the melding of seniors and shelter animals. On top of the medical benefits of owning a pet, this organization seeks to create loving, meaningful friendships.</span></p></li>
+              <li><p class="p1"><span><a href="https://www.secondwind.org/" target="_blank" class="showlink">Second Wind Dreams</a> believes that no matter your age, you’re never too old to have a dream, and those dreams, when possible, should be fulfilled.</span></p></li>
+              <li><p class="p1"><span><a href="http://www.seniornet.org/" target="_blank" class="showlink">SeniorNet</a> allows one to continue learning by taking online classes or researching topics of interest, but it also facilitates communication, socialization, and creativity.</span></p></li>
+              <li><p class="p1"><span><a href="https://www.shepherdcenters.org/" target="_blank" class="showlink">Shepherd's Centers of America</a> was built on the idea of community, and that no one should be excluded from it, regardless of age or health. They offer education, an emphasis on fitness, and promote volunteerism.</span></p></li>
+            </ol>
+            <p class="p1"><span>Whether you are looking for a worthwhile senior citizen organization to volunteer with, donate funds, or are looking for resources for a loved one, these well-respected organizations have earned a place in our hearts. If you know of an organization not listed here that deserves a mention, please give contact us at <a href="mailto:comcareh@gmail.com" class="showlink">comcareh@gmail.com</a>.</span>
+          </div>
+          <div class="side-content">
+            <ul class="tableofcontents">
+              <li>
+                <a href="/patients-and-caregivers/giving-back/pages/community-supporters"><span>Community Supporters</span></a>
+              </li>
+              <li>
+                <a href="/patients-and-caregivers/giving-back/pages/donate-to-charity" class="active"><span>Charities</span></a>
+              </li>
+              <li>
+                <a href="/patients-and-caregivers/giving-back/pages/patient-wishlist"><span>Patient Wish List</span></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      {% include "../base/footer.html" %}
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous" defer></script>
+    <script type="text/javascript" src="{% static 'website/js/navbar.js' %}" defer></script>
+  </body>
+</html>
+

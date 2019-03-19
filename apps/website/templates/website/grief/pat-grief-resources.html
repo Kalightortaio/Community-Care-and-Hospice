@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- Developed by Krishna Kokatay, 2019. Visit my website: www.kalightortaio.com -->
+    <meta charset="utf-8">
+    <meta id="viewport" name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Community Care</title>
+    {% load static %}
+    <link rel="icon" href="{% static '/website/images/favicon.png' %}">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="{% static 'website/css/footer.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'website/css/pat-base.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'website/css/pat-grief-resources.css' %}">
+  </head>
+  <body>
+    {% include "../base/pat-navbar.html" %}
+      <div id="content-wrapper">
+        <div class="centered hidelink">
+          <img src="{% static '/website/images/bench.png' %}" height="210" width="1140" alt="Bench on beach during sunset" />
+          <div class="sitemap">
+            <span><a href="/patients-and-caregivers/pages/home">Patients and Caregivers&nbsp;</a></span>
+            <span class="fa fa-caret-right"></span>
+            <span><a href="/patients-and-caregivers/grief-services/pages/home">&nbsp;Grief Services&nbsp;</a></span>
+            <span class="fa fa-caret-right"></span>
+            <span><a href="/patients-and-caregivers/grief-services/pages/resources">&nbsp;Resources&nbsp;</a></span>
+          </div>
+          <div class="content">
+            <span class="title">Resources</span><br />
+            <img src="{% static '/website/images/books.png' %}" height="235" width="300" alt="Bookshelf" />
+            <p><span class="titletext2">Suggested Reading List</span></p>
+            <p class="p1"><span>For a comprehensive list of grief and loss reading materials, <a href="{% static 'website/documents/readings.pdf' %}" target="_blank" class="showlink">click here</a>.</span></p>
+            <p><span class="titletext2">Websites</span></p>
+            <p class="p1"><span>For some, the Internet offers a way to connect with others and learn more about grief. Listed below are a few websites that offer grief support, articles and resources for those who have experienced the death of a loved one. There is no affiliation between the bereavement center and these websites, and we bear no responsibility for the information contained on them. Please view at your own discretion.</span></p>
+            <ul>
+              <li><span class="p1"><a href="http://thegrieftoolbox.com/" target="_blank" class="showlink">The Grief Toolbox</a>: The Grief Toolbox is a comprehensive resource for people experiencing grief. Articles, other resources, and an online art gallery help support individuals in the grieving process. The Grief Toolbox also provides a support group locator.</span></li>
+              <li><span class="p1"><a href="http://childrengrieve.org/" target="_blank" class="showlink">National Alliance for Grieving Children</a>: The National Alliance for Grieving Children is a nationwide platform that connects professionals, consumers, and volunteers whose mission is to support children and teens through the grieving process. NAGC offers online education, a searchable support group database, and hosts an annual symposium about child grief.</span></li>
+              <li><span class="p1"><a href="http://www.bereavedparentsusa.org/" target="_blank" class="showlink">Bereaved Parents of the USA</a>: Bereaved Parents of the USA connects grieving parents with other bereaved parents, grandparents, and siblings for one-on-one support. The site offers a newsletter, articles and poems, and many resources and links for grieving families to guide them through the grieving process. It also hosts an annual gathering where bereaved parents can share their stories with others and participate in grief workshops.</span></li>
+            </ul>
+          </div>
+          <div class="side-content">
+            <ul class="tableofcontents">
+              <li>
+                <a href="/patients-and-caregivers/grief-services/pages/FAQ"><span>FAQ</span></a>
+              </li>
+              <li>
+                <a href="/patients-and-caregivers/grief-services/pages/resources" class="active"><span>Resources</span></a>
+              </li>
+              <li>
+                <a href="/patients-and-caregivers/grief-services/pages/reading-and-information"><span>Reading and Information</span></a>
+              </li>
+            </ul>
+            <img src="{% static '/website/images/autumn.png' %}" height="200" width="300" alt="replacemelater" />
+            <a href="" class="newslink"><span>Grief and Loss Articles</span></a>
+            <div class="divider"></div>
+          </div>
+        </div>
+      </div>
+      {% include "../base/footer.html" %}
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous" defer></script>
+    <script type="text/javascript" src="{% static 'website/js/navbar.js' %}" defer></script>
+  </body>
+</html>
+

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- Developed by Krishna Kokatay, 2019. Visit my website: www.kalightortaio.com -->
+    <meta charset="utf-8">
+    <meta id="viewport" name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Community Care</title>
+    {% load static %}
+    <link rel="icon" href="{% static '/website/images/favicon.png' %}">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="{% static 'website/css/footer.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'website/css/pat-base.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'website/css/pat-giving-home.css' %}">
+  </head>
+  <body>
+    {% include "../base/pat-navbar.html" %}
+      <div id="content-wrapper">
+        <div class="centered hidelink">
+          <img src="{% static '/website/images/beach.png' %}" height="210" width="1140" alt="California beach" />
+          <div class="sitemap">
+            <span><a href="/patients-and-caregivers/pages/home">Patients and Caregivers&nbsp;</a></span>
+            <span class="fa fa-caret-right"></span>
+            <span><a href="/patients-and-caregivers/giving-back/pages/home">&nbsp;Giving Back&nbsp;</a></span>
+          </div>
+          <div class="content">
+            <span class="title">Giving Back</span>
+            <p><span class="titletext">"I could not have done everything I did without their guidance. They are blessings in disguise" - Caregiver​</span></p>
+            <div class="divider"></div>
+            <p class="p1"><span>Your gift in support of our patients and families, no matter the size, is a symbol of hope and love.​</span></p>
+            <p class="p1"><span>Just as patients and families look to Community Care & Hospice for compassionate care and support during the most difficult times, we owe ourselves to charitable donations to help meet individual and community needs, no matter how challenging.</span></p>
+            <img src="{% static '/website/images/office.png' %}" height="380" width="250" alt="replacemelater" />
+            <p class="p1"><span>Each individual is unique. No one's journey at the end of life or during a serious illness can be compared to another's experience.</span></p>
+            <p class="p1"><span>That is why our services are so comprehensive and our programs are so diverse.</span></p>
+            <p class="p1"><span>As a donor, your support will help us offer the care and resources that truly make a difference, thanks to generous community support.</span></p>
+            <p class="p1"><span>Some services, like respite care, are essential. Others, such as our art therapy program, may not be "essential" but they give joy to patients and hope to the families who love them.</span></p>
+            <p class="p1"><span>Every donation we receive supports our ability to better care for you – our neighbors, friends and families. Thank you.</span></p>
+            <p class="p1"><span>If you would like to make a gift towards Community Care & Hospice, you can mail your donation to our main office:</span></p>
+            <p class="p1"><span>4000 Calle Tecate, Suite 114<br />Camarillo, CA 93012</span></p>
+          </div>
+          <div class="side-content">
+            <ul class="tableofcontents">
+              <li>
+                <a href="/patients-and-caregivers/giving-back/pages/community-supporters"><span>Community Supporters</span></a>
+              </li>
+              <li>
+                <a href="/patients-and-caregivers/giving-back/pages/donate-to-charity"><span>Charities</span></a>
+              </li>
+              <li>
+                <a href="/patients-and-caregivers/giving-back/pages/patient-wishlist"><span>Patient Wish List</span></a>
+              </li>
+            </ul>
+            <div class="divider"></div>
+            <span class="scheader bold">Privacy Policy</span><br /><br />
+            <div class="scdiv">
+              <span class="scbody"><span class="bold">Community Care & Hospice</span> respects our donors and does not sell, trade or share our donors’ personal information with anyone else. Community Care & Hospice does not send donor mailings on behalf of other organizations. Every precaution is taken to protect your privacy.</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      {% include "../base/footer.html" %}
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous" defer></script>
+    <script type="text/javascript" src="{% static 'website/js/navbar.js' %}" defer></script>
+  </body>
+</html>
+

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- Developed by Krishna Kokatay, 2019. Visit my website: www.kalightortaio.com -->
+    <meta charset="utf-8">
+    <meta id="viewport" name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Community Care</title>
+    {% load static %}
+    <link rel="icon" href="{% static '/website/images/favicon.png' %}">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="{% static 'website/css/footer.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'website/css/pat-base.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'website/css/pat-giving-supporters.css' %}">
+  </head>
+  <body>
+    {% include "../base/pat-navbar.html" %}
+      <div id="content-wrapper">
+        <div class="centered hidelink">
+          <div class="sitemap">
+            <span><a href="/patients-and-caregivers/pages/home">Patients and Caregivers&nbsp;</a></span>
+            <span class="fa fa-caret-right"></span>
+            <span><a href="/patients-and-caregivers/giving-back/pages/home">&nbsp;Giving Back&nbsp;</a></span>
+            <span class="fa fa-caret-right"></span>
+            <span><a href="/patients-and-caregivers/giving-back/pages/community-supporters">&nbsp;Community Supporters&nbsp;</a></span>
+          </div>
+          <div class="content">
+            <span class="title">Community Supporters</span>
+            <p><span class="titletext2 italic">The families, individuals, groups and clubs who support our agency make such a difference in the lives of our patients and their loved ones. These dedicated community members donate their time and talent for special efforts such as capital improvements and programs that serve our community in Hospice.</span></p>
+            <div class="divider"></div>
+            <p class="p1"><span>If you would like to participate in a community program, are a corporation interested in becoming a partner, or a small business that might be willing to provide some services to our hospice families, please contact the main office at 805.667.8558 or email us at <a href="mailto:business.comcareh@gmail.com" class="showlink">business.comcareh@gmail.com</a>.</span></p>
+          </div>
+          <div class="side-content">
+            <ul class="tableofcontents">
+              <li>
+                <a href="/patients-and-caregivers/giving-back/pages/community-supporters" class="active"><span>Community Supporters</span></a>
+              </li>
+              <li>
+                <a href="/patients-and-caregivers/giving-back/pages/donate-to-charity"><span>Charities</span></a>
+              </li>
+              <li>
+                <a href="/patients-and-caregivers/giving-back/pages/patient-wishlist"><span>Patient Wish List</span></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      {% include "../base/footer.html" %}
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous" defer></script>
+    <script type="text/javascript" src="{% static 'website/js/navbar.js' %}" defer></script>
+  </body>
+</html>
+

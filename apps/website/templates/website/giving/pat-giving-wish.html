@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- Developed by Krishna Kokatay, 2019. Visit my website: www.kalightortaio.com -->
+    <meta charset="utf-8">
+    <meta id="viewport" name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Community Care</title>
+    {% load static %}
+    <link rel="icon" href="{% static '/website/images/favicon.png' %}">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="{% static 'website/css/footer.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'website/css/pat-base.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'website/css/pat-giving-wish.css' %}">
+  </head>
+  <body>
+    {% include "../base/pat-navbar.html" %}
+      <div id="content-wrapper">
+        <div class="centered hidelink">
+          <div class="sitemap">
+            <span><a href="/patients-and-caregivers/pages/home">Patients and Caregivers&nbsp;</a></span>
+            <span class="fa fa-caret-right"></span>
+            <span><a href="/patients-and-caregivers/giving-back/pages/home">&nbsp;Giving Back&nbsp;</a></span>
+            <span class="fa fa-caret-right"></span>
+            <span><a href="/patients-and-caregivers/giving-back/pages/patient-wishlist">&nbsp;Patient Wish List&nbsp;</a></span>
+          </div>
+          <div class="content">
+            <span class="title">Patient Wish List</span>
+            <p><span class="titletext">"Thanks to receiving an electronic web camera, I was able to talk to my son across the country every day."</span></p>
+            <p><span class="titletext2 barleft">grateful Patient and Wish List Recipient</span></p><br />
+            <div class="divider"></div>
+            <img src="{% static '/website/images/hands.png' %}" height="200" width="260" alt="replacemelater" class="imgright"/>
+            <p class="p1"><span>Have you ever received restaurant gift cards right after you started your diet? Does your book club or alumni association get together for service projects? </span></p>
+            <p class="p1"><span>Perhaps you’d like to help us by collecting and donating items from our wish list. For more information, or to contribute to this list, please contact our office at 805.667.8558.</span></p>
+            <table>
+              <tr>
+                <td>
+                  <p><span class="titletext2">Craft Supplies</span></p>
+                  <ul>
+                    <li><span>Coloring Books</span></li>
+                    <li><span>Journaling books/diaries</span></li>
+                    <li><span>Non-glare plastic 3-ring sheet protectors</span></li>
+                    <li><span>Easy grip pens and pencils</span></li>
+                    <li><span>Paint supplies</span></li>
+                    <li><span>Yarn or Material</span></li>
+                    <li><span>Fabric Markers</span></li>
+                    <li><span>Drawing Paper</span></li>
+                    <li><span>Craft boxes</span></li>
+                    <li><span>Art supplies</span></li>
+                  </ul>
+                  <p><span class="titletext2">Gift Cards</span></p>
+                  <ul>
+                    <li><span>Telephone calling cards</span></li>
+                    <li><span>Gas cards</span></li>
+                    <li><span>Bookstores</span></li>
+                    <li><span>National restaurant chains</span></li>
+                    <li><span>Starbucks/other venues</span></li>
+                    <li><span>Visa or other preloaded cards</span></li>
+                  </ul>
+                </td>
+                <td>
+                  <p><span class="titletext2">Electronics</span></p>
+                  <ul>
+                    <li><span>Books on CD</span></li>
+                    <li><span>CD players</span></li>
+                    <li><span>Digital cameras</span></li>
+                    <li><span>Digital clocks</span></li>
+                    <li><span>Digital voice recorder</span></li>
+                    <li><span>Disposable digital cameras</span></li>
+                    <li><span>DVDs</span></li>
+                    <li><span>Headphones</span></li>
+                    <li><span>MP3 players</span></li>
+                    <li><span>Personal amplifiers</span></li>
+                    <li><span>Personal CD players</span></li>
+                    <li><span>Shower radios</span></li>
+                    <li><span>Small microwaves</span></li>
+                    <li><span>Video cassette Movies</span></li>
+                  </ul>
+                  <p><span class="titletext2">Musical Items</span></p>
+                  <ul>
+                    <li><span>Chimes</span></li>
+                    <li><span>Keyboards</span></li>
+                    <li><span>Microphones</span></li>
+                    <li><span>Music Therapy Books</span></li>
+                    <li><span>Other Instruments</span></li>
+                  </ul>
+                </td>
+              </tr>
+            </table>
+          </div>
+          <div class="side-content">
+            <ul class="tableofcontents">
+              <li>
+                <a href="/patients-and-caregivers/giving-back/pages/community-supporters"><span>Community Supporters</span></a>
+              </li>
+              <li>
+                <a href="/patients-and-caregivers/giving-back/pages/donate-to-charity"><span>Charities</span></a>
+              </li>
+              <li>
+                <a href="/patients-and-caregivers/giving-back/pages/patient-wishlist" class="active"><span>Patient Wish List</span></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      {% include "../base/footer.html" %}
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous" defer></script>
+    <script type="text/javascript" src="{% static 'website/js/navbar.js' %}" defer></script>
+  </body>
+</html>
+

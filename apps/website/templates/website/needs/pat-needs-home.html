@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- Developed by Krishna Kokatay, 2019. Visit my website: www.kalightortaio.com -->
+    <meta charset="utf-8">
+    <meta id="viewport" name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Community Care</title>
+    {% load static %}
+    <link rel="icon" href="{% static '/website/images/favicon.png' %}">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="{% static 'website/css/footer.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'website/css/pat-base.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'website/css/pat-needs-home.css' %}">
+  </head>
+  <body>
+    {% include "../base/pat-navbar.html" %}
+      <div id="content-wrapper">
+        <div class="centered hidelink">
+          <img src="{% static '/website/images/needbanner.png' %}" height="210" width="1140" alt="Family smiling" />
+          <div class="sitemap">
+            <span><a href="/patients-and-caregivers/pages/home">Patients and Caregivers&nbsp;</a></span>
+            <span class="fa fa-caret-right"></span>
+            <span><a href="/patients-and-caregivers/your-needs/pages/home">&nbsp;Your Needs&nbsp;</a></span>
+          </div>
+          <div class="content">
+            <span class="title">Your Needs</span>
+            <p><span class="titletext">Coping with a serious illness can be frightening, not only for the person diagnosed with the disease, but for their loved ones. A diagnosis of a serious or chronic illness often takes entire families by surprise. However, choosing to contact Community Care & Hospice isn’t about giving up. It’s about taking control.</span></p>
+            <div class="divider"></div>
+            <p class="p1"><span>Living with a chronic or a serious illness is easier with a circle of compassionate professional caregivers who can help share the burden. Each staff member and volunteer at Community Care & Hospice is here to help you and your loved one. Managing pain and other symptoms is our specialty and so is providing emotional and spiritual support to everyone affected by the diagnosis.</span></p>
+            <img src="{% static '/website/images/lvn.png' %}" width="320" height="260" alt="replacemelater"/>
+            <p class="p2"><span>Community Care & Hospice can help from the initial diagnosis to support beyond the end of life. Have you been wondering if now is the right time to explore hospice care for yourself or a loved one? If getting more care is on your mind, it is definitely the right time to ask questions. You can begin to assert control over the uncertainty we all experience when facing serious medical issues.</span></p>
+            <span class="p3">If you have more questions than answers, <a href="javascript:;" class="coloredatag">click here for our checklist.</a></span><br />
+            <p class="p4"><span class="bold">You do not have to travel this journey alone.</span><span> There are many services offered through Community Care & Hospice for people just like you.</span></p>
+          </div>
+          <div class="side-content">
+            <ul class="tableofcontents">
+              <li>
+                <a href="/patients-and-caregivers/your-needs/pages/hospice-explained"><span>Hospice Care Explained</span></a>
+              </li>
+              <li>
+                <a href="/patients-and-caregivers/your-needs/pages/do-you-need-hospice"><span>Do You Need Hospice?</span></a>
+              </li>
+              <li>
+                <a href="/patients-and-caregivers/your-needs/pages/how-is-hospice-paid-for"><span>How is Hospice Paid For?</span></a>
+              </li>
+              <li>
+                <a href="/patients-and-caregivers/your-needs/pages/you-have-a-choice"><span>You Have a Right to Choice</span></a>
+              </li>
+              <li>
+                <a href="/patients-and-caregivers/our-services/pages/home"><span>Our Services</span></a>
+              </li>
+            </ul>
+            <div class="referralbox">
+              <span class="title">We Can Help</span><br />
+              <p><span>Speak with the referral team by contacting us, available during all days of the week. An in-person visit can also be scheduled if it is needed.</span></p>
+              <div class="fa fa-caret-down fa-3x"></div>
+            </div>
+            <span class="blue">Referral Team</span><br />
+            <img src="{% static 'website/images/phone-favicon.ico' %}" height="16" width="16" alt="phone_icon">
+            <a href="tel:8056678558"><span class="blue">&nbsp;&nbsp;805.667.8558&nbsp;</span></a>
+            <div class="divider"></div>
+          </div>
+        </div>
+      </div>
+      {% include "../base/footer.html" %}
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous" defer></script>
+    <script type="text/javascript" src="{% static 'website/js/navbar.js' %}" defer></script>
+  </body>
+</html>
+
