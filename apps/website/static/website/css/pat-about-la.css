@@ -1,82 +1,3 @@
-.sitemap {
-  font-family: "Segoe UI","Segoe",Tahoma,Helvetica,Arial,sans-serif;
-  font-size: 13px;
-  padding-top: 40px;
-  margin-bottom: 20px;
-  color: #080808;
-}
-.sitemap a:hover, .sitemap a:focus {
-  text-decoration: underline;
-  color: #337ab7;
-}
-.fa-caret-right {
-  color: #00a2c9;
-}
-.content {
-  width: 710px;
-  padding: 30px;
-  margin-right: 70px;
-}
-.side-content {
-  width: 360px;
-  padding: 30px;
-  margin-left: -5px;
-}
-.content, .side-content {
-  font-family: Arial, Helvetica, sans-serif;
-  display: inline-block;
-  vertical-align: top;
-  background-color: white;
-}
-.side-content .divider {
-  margin-bottom: 20px;
-}
-.tableofcontents {
-  list-style: none;
-  width: 300px;
-  border: 1px solid #ccc;
-  border-top: 0;
-  margin-top: 0;
-  margin-bottom: 0;
-  padding-left: 0;
-}
-.tableofcontents li {
-  border-top: 1px solid #ccc;
-  padding-top: 13px;
-  padding-bottom: 13px;
-  padding-left: 20px;
-  padding-right: 20px;
-  font-size: 1.2em;
-  background: #f0efef;
-  color: #2c4f6b;
-  line-height: 24px;
-  letter-spacing: 0.04em;
-}
-.tableofcontents a:hover, .tableofcontents a:focus, .tableofcontents a.active {
-  text-decoration: underline;
-}
-.side-content .title {
-  font-size: 24px;
-}
-.side-content p {
-  line-height: 1.5;
-  font-size: 18px;
-}
-.divider {
-  width: 100%;
-  border-bottom: 2px solid #A4A396;
-  margin: 30px 0 0px;
-  height: 1px;
-}
-.content .coloredatag {
-  color: #337ab7;
-}
-.coloredatag:hover, .coloredatag:focus {
-  text-decoration: underline;
-}
-.bold {
-  font-weight: bold;
-}
 .content img {
   float: right;
   margin-top: 10px;
@@ -84,40 +5,12 @@
   margin-right: 10px;
   margin-bottom: 10px;
 }
-.content .title {
-  font-size: 42px;
-  color: #384C92;
-}
-.content .titletext {
-  font-size: 24px;
-  font-style: italic;
-  color: #0072C6;
-  line-height: 1.4;
-}
-.content .titletext2 {
-  font-size: 24px;
-  color: #384C92;
-  line-height: 1.4;
-}
-.content .divider {
-  margin-top: 15px;
-  margin-bottom: 30px;
-}
-.p1 {
-  font-size: 17px;
-  line-height: 1.7;
-}
 .content ul {
   padding-top: 20px;
 }
 .content li {
   padding: 5px;
 }
-#content-wrapper .showlink {
-  text-decoration: underline;
-  color: #337ab7;
-}
 #content-wrapper {
-  height: fit-content;
   min-height: 900px;
 }

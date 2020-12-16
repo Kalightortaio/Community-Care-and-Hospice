@@ -1,0 +1,38 @@
+@media only screen and (min-width: 1024px){
+  .content img {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+  }
+  .content ul {
+    list-style-type: square;
+    line-height: 1.4;
+  }
+  .content ul li {
+    font-size: 19px;
+    margin: 7px 0 7px 0;
+  }
+  .content table {
+    width: 100%;
+  }
+  .content table tr {
+    width: 100%;
+  }
+  .content table td {
+    width: 50%;
+    vertical-align: top;
+  }
+}
+
+@media only screen and (min-width: 786px){
+
+}
+
+@media only screen and (min-width: 381px){
+
+}
+
+@media only screen and (max-width: 381px){
+
+}
+

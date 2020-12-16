@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- Developed by Krishna Kokatay, 2019. Visit my website: www.kalightortaio.com -->
+    <!-- Responsive design and grid formatting by Michael Amic-Angelo, 2019. Visit my website: www.amicandesign.com -->    <meta charset="utf-8">
+    <meta id="viewport" name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Community Care</title>
+    {% load static %}
+    <link rel="icon" href="{% static '/website/images/favicon.png' %}">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="{% static 'website/cssmobile/footer.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'website/cssmobile/main.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'website/cssmobile/media.css'%}">
+    <link rel="stylesheet" type="text/css" href="{% static 'website/cssmobile/pat-grief-faq.css' %}">
+  </head>
+  <body>
+      <div id="global">
+    {% include "../base/pat-navbar.html" %}
+      <div id="content-wrapper">
+        <div class="centered hidelink mainbody">
+          <img class="banner" src="{% static '/website/images/bench.png' %}" alt="Bench on beach during sunset" />
+          <div class="sitemap">
+            <span><a href="/patients-and-caregivers/pages/home">Patients and Caregivers&nbsp;</a></span>
+            <span class="fa fa-caret-right"></span>
+            <span><a href="/patients-and-caregivers/grief-services/pages/home">&nbsp;Grief Services&nbsp;</a></span>
+          </div>
+          <div class="content">
+            <span class="title">Frequently Asked Questions</span>
+            <p class="p1 bold"><span>What are Community Care Grief Services?</span></p>
+            <p class="p1"><span>The Bereavement Program provides support and tools for person who are grieving a significant loss. As each person may experience their grief differently, different types of support are offered - including grief support groups, individual counseling, readings and information, and eduction.</span></p>
+            <p class="p1 bold"><span>Who facilitates the service?</span></p>
+            <p class="p1"><span>Community Care & Hospice has a bereavement team which includes the Bereavement Coordinator, Chaplain, and Volunteer(s). The team works closely with the hospice team to ease the transition from grief. The Bereavement Coordinator provides individual grief counseling and the Chaplain provides spiritual counseling. All bereavement staff members are skilled, trained professionals. The volunteers are also trained, skilled, and have had experience in the bereavement process themselves.</span></p>
+            <p class="p1 bold"><span>What will it cost me?</span></p>
+            <p class="p1"><span>There is no charge. These are services offered to the comunnity by Community Care & Hospice.</span></p>
+            <p class="p1 bold"><span>Do you accepte persons who don't live in the area?</span></p>
+            <p class="p1"><span>Yes. Services are open to all bereaved persons.</span></p>
+            <p class="p1 bold"><span>Are these services affiliated with any religious group?</span></p>
+            <p class="p1"><span>No, our Bereavement Program has no religious affiliation. Persons of all faiths, as well as persons outside of traditional belief systems are welcome.</span></p>
+            <p class="p1 bold"><span>How long does grief last?</span></p>
+            <p class="p1"><span>The grief process is unique to each individual. Initially grief can be intense. Grief support can help you with your ability to cope with your loss, but grief has no set timetable. We are here for you, every step of the way.</span></p>
+            <p class="p1 bold"><span>How do I know if I need help?</span></p>
+            <p class="p1"><span>Seeking the experience of others and understanding the common threads of grief are helpful, but continuous bouts with feat, anxiety, or the lack of the ability of function are indicators that support is needed. However, thoughts of self-harm or harming others are signs that intensive professional help is needed. If you fear you will harm yourself or others, do not act on this. Call us at 805.667.8558, emergancy services at 911, the crisis hotline at 800.273.8255, text HOME at 741741, or visit the emergency room.</span></p>
+            <div class="divider"></div>
+            <p class="p1 italic"><span>Community Care bereavement professionals serves as important advocates to promote attention and action related to greif and loss. Hospice bereavement programs focus on hospice patients' and families' grief and loss concerns, staff and volunteer grief and loss needs, and grief and loss needs int he community at large. In this way, hospice bereavement professionals serve as strong community advocates for promoting understanding of grief and attention to the needs of the community's grieving population. Community Care bereavement professionals can also advocate for education and research to further knowledge about grief and loss, to identify the most effective inervections to failitate healthy coping.</span></p>
+          </div>
+          <div class="side-content">
+            <ul class="tableofcontents">
+              <li>
+                <a href="/patients-and-caregivers/grief-services/pages/FAQ" class="active"><span>FAQ</span></a>
+              </li>
+              <li>
+                <a href="/patients-and-caregivers/grief-services/pages/resources"><span>Resources</span></a>
+              </li>
+              <li>
+                <a href="/patients-and-caregivers/grief-services/pages/reading-and-information"><span>Reading and Information</span></a>
+              </li>
+            </ul>
+            <!-- https://maxl.us/hideyt -->
+            <style>
+              .hytPlayerWrap{
+                    display: inline-block; 
+                    position: relative;
+              }
+              .hytPlayerWrap.ended::after{
+                  content:""; 
+                  position: absolute; 
+                  top: 0; 
+                  left: 0; 
+                  bottom: 0; 
+                  right: 0; 
+                  cursor: pointer;
+                  background-color: black; 
+                  background-repeat: no-repeat; 
+                  background-position: center; 
+                  background-size: 64px 64px; 
+                  background-image: url(data:image/image/svg+xml;utf8;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjgiIGhlaWdodD0iMTI4IiB2aWV3Qm94PSIwIDAgNTEwIDUxMCI+PHBhdGggZD0iTTI1NSAxMDJWMEwxMjcuNSAxMjcuNSAyNTUgMjU1VjE1M2M4NC4xNSAwIDE1MyA2OC44NSAxNTMgMTUzcy02OC44NSAxNTMtMTUzIDE1My0xNTMtNjguODUtMTUzLTE1M0g1MWMwIDExMi4yIDkxLjggMjA0IDIwNCAyMDRzMjA0LTkxLjggMjA0LTIwNC05MS44LTIwNC0yMDQtMjA0eiIgZmlsbD0iI0ZGRiIvPjwvc3ZnPg==);
+                  }
+              .hytPlayerWrap.paused::after{
+                  content:""; 
+                  position: absolute; 
+                  top: 70px; 
+                  left: 0; 
+                  bottom: 50px; 
+                  right: 0; 
+                  cursor: pointer; 
+                  background-color: black; 
+                  background-repeat: no-repeat; 
+                  background-position: center; 
+                  background-size: 40px 40px;
+                  background-image: url(data:image/svg+xml;utf8;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEiIHdpZHRoPSIxNzA2LjY2NyIgaGVpZ2h0PSIxNzA2LjY2NyIgdmlld0JveD0iMCAwIDEyODAgMTI4MCI+PHBhdGggZD0iTTE1Ny42MzUgMi45ODRMMTI2MC45NzkgNjQwIDE1Ny42MzUgMTI3Ny4wMTZ6IiBmaWxsPSIjZmZmIi8+PC9zdmc+);
+                }
+            </style>
+            <div class="hytPlayerWrapOuter">
+              <div class="hytPlayerWrap">
+                <iframe width="300" height="268" src="https://www.youtube.com/embed/gsYL4PC0hyk?end=220&rel=0&enablejsapi=1" frameborder="0" ></iframe>
+              </div>
+            </div>
+            <script>
+              "use strict"; document.addEventListener('DOMContentLoaded', function(){if (window.hideYTActivated) return; let onYouTubeIframeAPIReadyCallbacks=[]; for (let playerWrap of document.querySelectorAll(".hytPlayerWrap")){let playerFrame=playerWrap.querySelector("iframe"); let tag=document.createElement('script'); tag.src="https://www.youtube.com/iframe_api"; let firstScriptTag=document.getElementsByTagName('script')[0]; firstScriptTag.parentNode.insertBefore(tag, firstScriptTag); let onPlayerStateChange=function(event){if (event.data==YT.PlayerState.ENDED){playerWrap.classList.add("ended");}else if (event.data==YT.PlayerState.PAUSED){playerWrap.classList.add("paused");}else if (event.data==YT.PlayerState.PLAYING){playerWrap.classList.remove("ended"); playerWrap.classList.remove("paused");}}; let player; onYouTubeIframeAPIReadyCallbacks.push(function(){player=new YT.Player(playerFrame,{events:{'onStateChange': onPlayerStateChange}});}); playerWrap.addEventListener("click", function(){let playerState=player.getPlayerState(); if (playerState==YT.PlayerState.ENDED){player.seekTo(0);}else if (playerState==YT.PlayerState.PAUSED){player.playVideo();}});}window.onYouTubeIframeAPIReady=function(){for (let callback of onYouTubeIframeAPIReadyCallbacks){callback();}}; window.hideYTActivated=true;});
+            </script>
+            <!-- https://maxl.us/hideyt -->
+          </div>
+        </div>
+        {% include "../base/footer.html" %}
+      </div>
+      </div>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous" defer></script>
+    <script type="text/javascript" src="{% static 'website/jsmobile/navbar.js' %}" defer></script>
+  </body>
+</html>
+

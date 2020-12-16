@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- Developed by Krishna Kokatay, 2019. Visit my website: www.kalightortaio.com -->
+    <!-- Responsive design and grid formatting by Michael Amic-Angelo, 2019. Visit my website: www.amicandesign.com -->    <meta charset="utf-8">
+    <meta id="viewport" name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Community Care</title>
+    {% load static %}
+    <link rel="icon" href="{% static '/website/images/favicon.png' %}">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="{% static 'website/cssmobile/footer.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'website/cssmobile/main.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'website/cssmobile/media.css'%}">
+    <link rel="stylesheet" type="text/css" href="{% static 'website/cssmobile/prof-home.css' %}">
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+  </head>
+  <body>
+    <div id="global">
+    {% include "./prof-navbar.html" %}
+      <div id="content-wrapper">
+        <div class="centered hidelink mainbody">
+          <div class="content-top">
+            <div class="image">
+              <img class="banner" src="{% static 'website/images/refer.png' %}" alt="Patient referrals">
+              <div class="caption c2pos">
+                <a href="/professionals/refer-a-patient/pages/home"><span class="ctitle">Is it Time to Make a Referral?</span></a><br /><br  />
+                <span>Ask yourself the important questions, then ask for us by name.</span>
+                <a href="/professionals/refer-a-patient/pages/home"><span class="clearnmore">Learn more <span class="fa fa-caret-right"></span></span></a>
+              </div>
+            </div>
+            <div class="image">
+              <img class="banner"  src="{% static '/website/images/smilingnurse.png' %}" alt="Nursing staff">
+              <div class="caption c1pos pushover">
+                <a href="/patients-and-caregivers/giving-back/pages/community-supporters"><span class="ctitle">Ventura and Greater Los Angeles's Hospice of Choice</span></a><br /><br  />
+                <span>Start your relationship with us, dedicated community members, local businesses, and corporate partners alike.</span>
+                <a href="/patients-and-caregivers/giving-back/pages/community-supporters"><span class="clearnmore">Learn more <span class="fa fa-caret-right"></span></span></a>
+              </div>
+            </div>
+          </div>
+          <div class="notchbox">
+          <div class="notch">
+            <div class="nleft"></div>
+            <div class="nright"></div>
+          </div>
+          <table class="navibar">
+            <tr>
+            <td>
+              <a href="/professionals/refer-a-patient/pages/home">
+                <i class="fas fa-notes-medical fa-3x"></i><br />
+                <span>Referral</span>
+              </a>
+            </td>
+            <td>
+              <a href="mailto:business.comcareh@gmail.com" target="_blank">
+                <i class="fas fa-business-time fa-3x"></i><br />
+                <span>Business Email</span>
+              </a>
+            </td>
+            <td>
+              <a href="/patients-and-caregivers/giving-back/pages/home">
+                <i class="fas fa-hand-holding-heart fa-3x"></i><br />
+                <span>Donations <br /> & Charities</span>
+              </a>
+            </td>
+            <td>
+              <a href="/professionals/careers/pages/home">
+                <i class="fas fa-users fa-3x"></i><br />
+                <span>Careers</span>
+              </a>
+            </td>
+            <td>
+              <a href="/patients-and-caregivers/contact-us/pages/home">
+                <i class="fas fa-map-marked-alt fa-3x"></i><br />
+                <span>Office and Area <br /> of Service Location</span>
+              </a>
+            </td>
+          </tr>
+          </table>
+          </div>
+          <div class="articlesection">
+            <div class="sidepanel">
+              <div class="sptop">
+                <p><span><a href="/patients-and-caregivers/about-us/pages/home" class="showlink">About Us</a></span></p>
+                <p class="p1"><span>Community Care & Hospice has been a member of the Ventura and Greater Los Angeles community for several years now. We are your neighbors, friends, caregivers, and family members.</span></p>
+              </div>
+              <div class="divider"></div>
+              <div class="spbottom">
+                <p><span><a href="/patients-and-caregivers/news-and-media/pages/home" class="showlink">News and Media</a></span></p>
+                <p class="p1"><span>As a regionally recognized expert in hospice care, Community Care & Hospice provides local and national media resources, experts, patient stories and other materials necessary to educate our community and public figures about end-of-life care.</span></p>
+              </div>
+            </div>
+            <div class="mainpanel">
+              <div class="mptop">
+                <img src="{% static '/website/images/newsletter.png' %}"  alt="Newsletter" />
+                <div class="text-wrapper">
+                  <a href="/patients-and-caregivers/news-and-media/pages/community-connections" class="showlink"><span>Community Connections Newsletter</span></a>
+                  <p class="bufferup mp1"><span>Read about the latest advancements in our hospice care, with a dedicated, personal focus in each issue.​</span><br /><span class="mplearnmore"><a href="/patients-and-caregivers/news-and-media/pages/community-connections" class="showlink2">Learn more <span class="fa fa-caret-right"></span><span class="fa fa-caret-right"></span></span></a></p>
+                </div>
+              </div>
+              <div class="mpmiddle">
+                <img src="{% static '/website/images/careers.png' %}" alt="Work with us" />
+                <div class="text-wrapper">
+                  <a href="/professionals/careers/pages/home" class="showlink"><span>Make a Difference at Community Care & Hospice</span></a>
+                  <p class="bufferup mp1"><span>Whether you're a health care professional or have expertise in a non-clinical specialty, we offer opportunities for you to shine in a collaborative environment.​</span><br /><span class="mplearnmore"><a href="/professionals/careers/pages/home" class="showlink2">Learn more <span class="fa fa-caret-right"></span><span class="fa fa-caret-right"></span></span></a></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      {% include "./footer.html" %}
+      </div>
+    </div>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous" defer></script>
+    <script type="text/javascript" src="{% static 'website/jsmobile/navbar.js' %}" defer></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js" defer></script>
+    <script type="text/javascript" src="{% static 'website/jsmobile/carousel.js' %}" defer></script>
+  </body>
+</html>
+

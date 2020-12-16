@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- Developed by Krishna Kokatay, 2019. Visit my website: www.kalightortaio.com -->
+    <!-- Responsive design and grid formatting by Michael Amic-Angelo, 2019. Visit my website: www.amicandesign.com -->    <meta charset="utf-8">
+    <meta id="viewport" name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Community Care</title>
+    {% load static %}
+    <link rel="icon" href="{% static '/website/images/favicon.png' %}">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="{% static 'website/cssmobile/footer.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'website/cssmobile/main.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'website/cssmobile/media.css'%}">
+    <link rel="stylesheet" type="text/css" href="{% static 'website/cssmobile/pat-news-grief-article.css' %}">
+  </head>
+  <body>
+      <div id="global">
+    {% include "../../base/pat-navbar.html" %}
+      <div id="content-wrapper">
+        <div class="centered hidelink mainbody">
+          <img class="banner" src="{% static '/website/images/news.png' %}" alt="Community Care + Hospice" />
+          <div class="sitemap">
+            <span><a href="/patients-and-caregivers/pages/home">Patients and Caregivers&nbsp;</a></span>
+            <span class="fa fa-caret-right"></span>
+            <span><a href="/patients-and-caregivers/volunteer-and-community/pages/home">&nbsp;Volunteer and Community&nbsp;</a></span>
+            <span class="fa fa-caret-right"></span>
+            <span><a href="/patients-and-caregivers/news-and-media/pages/home">&nbsp;News and Media&nbsp;</a></span>
+            <span class="fa fa-caret-right"></span>
+            <span><a href="/patients-and-caregivers/news-and-media/pages/about-grief">&nbsp;About Grief&nbsp;</a></span>
+            <span class="fa fa-caret-right"></span>
+            <span><a href="/patients-and-caregivers/news-and-media/pages/about-grief/loneliness-and-grief">&nbsp;Loneliness and Grief&nbsp;</a></span>
+          </div>
+          <div class="content">
+            <img class="bufferdown" src="{% static '/website/images/solitude.png' %}" alt="Solitude" />
+            <span class="title">Loneliness and Grief</span>
+            <p class="p1"><span>​Loneliness is often part of the grief journey.</span></p>
+            <p class="p1"><span>There is a difference between loneliness and solitude. Solitude is a choice and typically, loneliness is not. If your partner/spouse dies, you are alone and it was not a choice. You may have spent 5, 10, or 20 plus years with someone and when they are gone from sight, you are alone. You are alone when you want to share a comment about something on the news or in an article you are reading. You are alone in the kitchen, alone watching TV and alone in bed.</span></p>
+            <p class="p1"><span>You may also be alone with your grief depending on your support system. Even when there are good supports in place, there will be times when you do feel lonely because you miss your partner/spouse so much. This person had been with you through thick and thin and yet when you are experiencing something as painful as grief, they cannot be there with you to share it. This feeling of loneliness can also be unsettling and scary for some people. Others do not see it as such.</span></p>
+            <p class="p1"><span>Does the feeling of being alone always turn to loneliness? Not always. Some people are more comfortable than others being alone and do not view it as a negative, bad, or scary thing. In fact, some people treasure it and see it more as solitude and not loneliness. They also choose when they want to be with other people. For others, they feel very alone in their grief and can’t find a way to fill the void. Even being with other people cannot always help this feeling of loneliness.</span></p>
+            <p class="p1"><span>There are other ways in which you can dissipate loneliness: Join a garden club or other types of clubs, volunteer for an organization, attend synagogue or church, participate in a grief support group whether in person or online. Stay connected with others and keep busy.</span></p>
+            <p class="p1"><span>Grief includes all kinds of feelings. Trust the process and give yourself permission to be with all your feelings. Notice the difference between being alone and feeling lonely. Know that there are others out there who may feel the same as you. You are not alone.</span></p>
+          </div>
+          <div class="side-content">
+            <ul class="tableofcontents">
+              <li>
+                <a href="/patients-and-caregivers/news-and-media/pages/journey"><span>Journey</span></a>
+              </li>
+              <li>
+                <a href="/patients-and-caregivers/news-and-media/pages/about-grief" class="active"><span>About Grief</span></a>
+              </li>
+              <li>
+                <a href="/patients-and-caregivers/news-and-media/pages/community-connections"><span>Community Connections</span></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        {% include "../../base/footer.html" %}
+      </div>
+      </div>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous" defer></script>
+    <script type="text/javascript" src="{% static 'website/jsmobile/navbar.js' %}" defer></script>
+  </body>
+</html>
+

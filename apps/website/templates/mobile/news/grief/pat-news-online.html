@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- Developed by Krishna Kokatay, 2019. Visit my website: www.kalightortaio.com -->
+    <!-- Responsive design and grid formatting by Michael Amic-Angelo, 2019. Visit my website: www.amicandesign.com -->    <meta charset="utf-8">
+    <meta id="viewport" name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Community Care</title>
+    {% load static %}
+    <link rel="icon" href="{% static '/website/images/favicon.png' %}">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="{% static 'website/cssmobile/footer.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'website/cssmobile/main.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'website/cssmobile/media.css'%}">
+    <link rel="stylesheet" type="text/css" href="{% static 'website/cssmobile/pat-news-grief-article.css' %}">
+  </head>
+  <body>
+      <div id="global">
+    {% include "../../base/pat-navbar.html" %}
+      <div id="content-wrapper">
+        <div class="centered hidelink mainbody">
+          <img class="banner" src="{% static '/website/images/news.png' %}" alt="Banner - Community Care + Hospice" />
+          <div class="sitemap">
+            <span><a href="/patients-and-caregivers/pages/home">Patients and Caregivers&nbsp;</a></span>
+            <span class="fa fa-caret-right"></span>
+            <span><a href="/patients-and-caregivers/volunteer-and-community/pages/home">&nbsp;Volunteer and Community&nbsp;</a></span>
+            <span class="fa fa-caret-right"></span>
+            <span><a href="/patients-and-caregivers/news-and-media/pages/home">&nbsp;News and Media&nbsp;</a></span>
+            <span class="fa fa-caret-right"></span>
+            <span><a href="/patients-and-caregivers/news-and-media/pages/about-grief">&nbsp;About Grief&nbsp;</a></span>
+            <span class="fa fa-caret-right"></span>
+            <span><a href="/patients-and-caregivers/news-and-media/pages/about-grief/online-condolences">&nbsp;Online Condolences&nbsp;</a></span>
+          </div>
+          <div class="content">
+            <img class="bufferdown" src="{% static '/website/images/socialmedia.png' %}"  alt="Social Media" />
+            <span class="title">Online Condolences</span>
+            <p class="p1"><span>The family cat died last week. I have often written about the death of a pet and how non-pet lovers often disenfranchise grief from the death of a cat or dog. More and more folks seem to accept that it wasn’t just a dog and acknowledge the role pets play in our lives. What was quite remarkable to me was what occurred on my Facebook page.</span></p>
+            <p class="p1"><span>I posted the photo of my aged, adorable looking furry friend. I had never posted animal photos before. Much to my surprise, there was an outpouring of empathy, sympathy and compassion from family, friends, high school acquaintances, professional colleagues, former work associates and others that I only keep in touch with out of curiosity. These comments touched my heart and I was delightfully surprised to hear from certain people.</span></p>
+            <p class="p1"><span>Currently, when someone posts sad news, the options are to “like” it and/or to comment. Some posters are offended when people “like” their sad news. I appreciated not having a sympathy button in this instance as it prompted folks to comment rather than to hit the “like” button. My “friends” expressions of sympathy ranged from sorry to "it’s so hard to lose a beloved pet who is a member of the family" to the simple "aw" and my personal favorite… "love and sympathy, hugs".</span></p>
+            <p class="p1">Is it right or wrong, good or bad to express condolences on Facebook? Is a letter or a greeting card the only acceptable way to offer sympathy?  While expressions of grief can sometimes be offensive, offering condolences online is certainly okay.<span></span></p>
+            <p class="p1"><span>Consider your relationship with the grieving person. If your co-worker is grieving and he or she is someone you see every day, what would be most appropriate? An email, card, letter, or phone call? What makes the most sense? What would the griever want?  The internet offers an immediate response. Postal mail can take a few days after you’ve already taken a few days to sit down and write the letter or card. Will your friend or co-worker think you don’t care if he or she hasn’t received a card by the time she returns to work?</span></p>
+            <p class="p1"><span>Here are two examples: A Facebook friend yearly posts a picture of her deceased husband on the anniversary of his death. Many, many friends comment. They share stories and words of inspiration that provide great comfort. An elderly bereaved client yearly places an ad in the local obits honoring her deceased husband. The Facebook friend receives immediate feedback, the client brings in the clipping and receives support and hugs from group members and staff, weeks later.</span></p>
+            <p class="p1"><span>Some people might think condolences on Facebook are empty expressions of grief. They may be from people you are rarely in touch with. But personally, I appreciated the sentiments from everyone. One post was from a former co-worker who fondly remembered the story of how my cat earned his name.</span></p>
+            <p class="p1"><span>Offering condolences on social networks is perfect for the sometimes partial or distant friend. HOWEVER, nothing can take the place of physically being with the people you love.</span></p>
+            <p class="p1"><span>The bottom line is that it’s really up to the griever and his or her comfort level in expressing grief on the internet and social networks. The role of the friend is to be a friend and honor that grief whether it’s through a Facebook post, picking up the phone or showing up at the door with a meal.</span></p>
+          </div>
+          <div class="side-content">
+            <ul class="tableofcontents">
+              <li>
+                <a href="/patients-and-caregivers/news-and-media/pages/journey"><span>Journey</span></a>
+              </li>
+              <li>
+                <a href="/patients-and-caregivers/news-and-media/pages/about-grief" class="active"><span>About Grief</span></a>
+              </li>
+              <li>
+                <a href="/patients-and-caregivers/news-and-media/pages/community-connections"><span>Community Connections</span></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        {% include "../../base/footer.html" %}
+      </div>
+      </div>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous" defer></script>
+    <script type="text/javascript" src="{% static 'website/jsmobile/navbar.js' %}" defer></script>
+  </body>
+</html>

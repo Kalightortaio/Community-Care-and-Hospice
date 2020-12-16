@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- Developed by Krishna Kokatay, 2019. Visit my website: www.kalightortaio.com -->
+    <!-- Responsive design and grid formatting by Michael Amic-Angelo, 2019. Visit my website: www.amicandesign.com -->    <meta charset="utf-8">
+    <meta id="viewport" name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Community Care</title>
+    {% load static %}
+    <link rel="icon" href="{% static '/website/images/favicon.png' %}">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="{% static 'website/cssmobile/footer.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'website/cssmobile/main.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'website/cssmobile/media.css'%}">
+    <link rel="stylesheet" type="text/css" href="{% static 'website/cssmobile/pat-news-grief-article.css' %}">
+  </head>
+  <body>
+      <div id="global">
+    {% include "../../base/pat-navbar.html" %}
+      <div id="content-wrapper">
+        <div class="centered hidelink mainbody">
+          <img class="banner" src="{% static '/website/images/news.png' %}" alt="Banner - Community Care + Hospice"/>
+          <div class="sitemap">
+            <span><a href="/patients-and-caregivers/pages/home">Patients and Caregivers&nbsp;</a></span>
+            <span class="fa fa-caret-right"></span>
+            <span><a href="/patients-and-caregivers/volunteer-and-community/pages/home">&nbsp;Volunteer and Community&nbsp;</a></span>
+            <span class="fa fa-caret-right"></span>
+            <span><a href="/patients-and-caregivers/news-and-media/pages/home">&nbsp;News and Media&nbsp;</a></span>
+            <span class="fa fa-caret-right"></span>
+            <span><a href="/patients-and-caregivers/news-and-media/pages/about-grief">&nbsp;About Grief&nbsp;</a></span>
+            <span class="fa fa-caret-right"></span>
+            <span><a href="/patients-and-caregivers/news-and-media/pages/about-grief/grief-and-the-older-adult">&nbsp;Grief and the Older Adult&nbsp;</a></span>
+          </div>
+          <div class="content">
+            <img class="bufferdown" src="{% static '/website/images/elderlygrief.png' %}" alt="Elderly grief" />
+            <span class="title">Grief and the Older Adult</span>
+            <p class="p1"><span>Older adults experience grief much the same as younger and middle-aged adults. However, due to their age and life experience, many factors impact their grief reaction.</span></p>
+            <p class="p1"><span>Older adults often experience several losses within a short period of time. They may have a dwindling roster of family and friends and may be grieving any number of losses at the same time. In addition, older adults who experience spousal death may also lose their financial security, their best friend, other social contacts and supports.</span></p>
+            <p class="p1"><span>The natural process of aging involves many losses. These include, but are not limited to, loss of physical strength and endurance, independence, mobility, youth and beauty, the home, and purpose. If the older adult has a debilitating disease, there are losses associated with the disease progression. Older adults are more likely to become physically ill after a loved one dies. It is important that the bereaved older adult maintain contact with their healthcare providers.</span></p>
+            <p class="p1"><span>Older adults often lack the support systems they had in their younger years. After the funeral, family members return to their own lives, leaving the bereaved older adult feeling very alone.</span></p>
+            <p class="p1"><span>Many older adults suffer from untreated depression. Depression can occur with other medical illnesses. Healthcare professionals often mistakenly conclude that depression is a normal result of these illnesses as do the elderly. Additionally, some people believe that depression is a normal part of aging. Depression is not normal for people of any age. A comprehensive assessment can aid in determining if the older adult is becoming depressed and recommend treatment.</span></p>
+            <p class="p1"><span>How can you support an older adult who is grieving? Older adults may need more time to become aware of and express their feelings. Giving an older adult extra time shows empathy, compassion and respect.</span></p>
+            <p class="p1"><span>Older adults may need more time to become aware of and express their feelings. Giving an older adult extra time shows empathy, compassion and respect.</span></p>
+            <p class="p1"><span>You may need to point out signs of changes in behavior and sadness. This will help the older adult become more aware of their feelings and will help them more readily talk about them.</span></p>
+            <p class="p1"><span>Older adults who are isolated can benefit from the company of others. Spend time with them.</span></p>
+            <p class="p1"><span>Give the gift of presence.</span></p>
+            <p class="p1"><span>Talk about the deceased. Encourage the older adult to share memories. Telling the stories is part of the healing process.</span></p>
+            <p class="p1"><span>Since many older adults have experienced multiple losses, encourage them to talk about each loss separately. This helps the person feel less overwhelmed and better able to cope with the strong feelings of grief.</span></p>
+            <p class="p1"><span>Be aware of the signs of complicated grief and depression. If you have concerns, encourage the older adult to consult a healthcare provider.</span></p>
+          </div>
+          <div class="side-content">
+            <ul class="tableofcontents">
+              <li>
+                <a href="/patients-and-caregivers/news-and-media/pages/journey"><span>Journey</span></a>
+              </li>
+              <li>
+                <a href="/patients-and-caregivers/news-and-media/pages/about-grief" class="active"><span>About Grief</span></a>
+              </li>
+              <li>
+                <a href="/patients-and-caregivers/news-and-media/pages/community-connections"><span>Community Connections</span></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        {% include "../../base/footer.html" %}
+      </div>
+      </div>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous" defer></script>
+    <script type="text/javascript" src="{% static 'website/jsmobile/navbar.js' %}" defer></script>
+  </body>
+</html>
+

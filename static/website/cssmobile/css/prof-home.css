@@ -1,0 +1,28 @@
+@media only screen and (min-width: 1024px){
+    
+    #content-wrapper .showlink2 {
+      color: #005e74;
+    }
+    #content-wrapper .showlink2:hover, #content-wrapper .showlink2:focus {
+      text-decoration: underline;
+    }
+    #content-wrapper .showlink {
+      color: #384C92;
+      text-decoration: none;
+    }
+    #content-wrapper .showlink:hover, #content-wrapper .showlink:focus {
+      text-decoration: underline;
+    }
+}
+
+@media only screen and (min-width: 786px){
+
+}
+
+@media only screen and (min-width: 381px){
+
+}
+
+@media only screen and (max-width: 381px){
+
+}
