@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- Developed by Krishna Kokatay, 2019. Visit my website: www.kalightortaio.com -->
+    <!-- Responsive design and grid formatting by Michael Amic-Angelo, 2019. Visit my website: www.amicandesign.com -->    <meta charset="utf-8">
+    <meta id="viewport" name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Community Care</title>
+    {% load static %}
+    <link rel="icon" href="{% static '/website/images/favicon.png' %}">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="{% static 'website/cssmobile/footer.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'website/cssmobile/main.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'website/cssmobile/media.css'%}">
+    <link rel="stylesheet" type="text/css" href="{% static 'website/cssmobile/pat-news-grief-article.css' %}">
+  </head>
+  <body>
+      <div id="global">
+    {% include "../../base/pat-navbar.html" %}
+      <div id="content-wrapper">
+        <div class="centered hidelink mainbody">
+          <img class="banner" src="{% static '/website/images/news.png' %}" alt="Community Care + Hospice" />
+          <div class="sitemap">
+            <span><a href="/patients-and-caregivers/pages/home">Patients and Caregivers&nbsp;</a></span>
+            <span class="fa fa-caret-right"></span>
+            <span><a href="/patients-and-caregivers/volunteer-and-community/pages/home">&nbsp;Volunteer and Community&nbsp;</a></span>
+            <span class="fa fa-caret-right"></span>
+            <span><a href="/patients-and-caregivers/news-and-media/pages/home">&nbsp;News and Media&nbsp;</a></span>
+            <span class="fa fa-caret-right"></span>
+            <span><a href="/patients-and-caregivers/news-and-media/pages/about-grief">&nbsp;About Grief&nbsp;</a></span>
+            <span class="fa fa-caret-right"></span>
+            <span><a href="/patients-and-caregivers/news-and-media/pages/about-grief/grief-and-substance-abuse">&nbsp;Grief and Substance Abuse&nbsp;</a></span>
+          </div>
+          <div class="content">
+            <img class="bufferdown" src="{% static '/website/images/drugs.png' %}" alt="Substance abuse" />
+            <span class="title">Grief and Substance Abuse</span>
+            <p class="p1"><span>For some, the pain of grief is unbearable. To numb the pain of grief, some folks choose to have a have a drink in the evening. And then have two drinks and before long it is a fifth a day and then some. Meanwhile some may turn to other substances.</span></p>
+            <p class="p1"><span>Alcohol and drugs thwart the ability to process events and they interfere with grief work. In the bereavement center we find that unresolved grief is common with folks struggling with drugs and alcohol – whether or not they started as a result of grief.</span></p>
+            <p class="p1"><span>For some, substance use turns to substance abuse after the death of a loved one. For others, substance use already had control of their life. Almost anything can trigger a grief reaction. Sights, sounds, smells, places, events…the list is endless. And grief is often a trigger for those in recovery. It doesn’t matter which comes first or what triggers what–the grief or the use. The bottom line is that substance use doesn’t take away the pain of grief, it only hides the pain of grief.</span></p>
+            <p class="p1"><span>In addition, self-medicating grief with drugs and alcohol can have serious consequences. The user can become reckless, use deadly combinations of drugs and alcohol and engage in risky behaviors. They may come in contact with ruthless people or may isolate themselves completely.</span></p>
+            <p class="p1"><span>With addiction, grievers use substances to cope. Healthy support systems are lacking. They medicate, avoid and minimize their feelings. In turn, grief is not processed and losses are not fully grieved.</span></p>
+            <p class="p1"><span>Grief recovery, like addiction recovery, takes time. Everyone’s calendar is different. And it is no easy task. In healthy grieving, the bereaved work through the pain of grief, accept the reality of the loss, and find meaning and purpose in life. Losses move from being a painful raw open wound to a memory, albeit bittersweet at times.</span></p>
+            <p class="p1"><span>Both grief and substance abuse are treatable. Some counselors believe you should treat both at the same time. Others believe you need to address the substance abuse first. If you are struggling with these issues, please consult a professional. You do not need to suffer alone.</span></p>
+          </div>
+          <div class="side-content">
+            <ul class="tableofcontents">
+              <li>
+                <a href="/patients-and-caregivers/news-and-media/pages/journey"><span>Journey</span></a>
+              </li>
+              <li>
+                <a href="/patients-and-caregivers/news-and-media/pages/about-grief" class="active"><span>About Grief</span></a>
+              </li>
+              <li>
+                <a href="/patients-and-caregivers/news-and-media/pages/community-connections"><span>Community Connections</span></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        {% include "../../base/footer.html" %}
+      </div>
+      </div>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous" defer></script>
+    <script type="text/javascript" src="{% static 'website/jsmobile/navbar.js' %}" defer></script>
+  </body>
+</html>
+

@@ -1,7 +1,7 @@
-from django.urls import path, re_path,include
+from django.urls import path, re_path, include
 from apps.website import views as website_views
 urlpatterns = [
-    path('patients-and-caregivers/pages/home', website_views.pat_home),
+    path('patients-and-caregivers/pages/home',  website_views.pat_home),
     path('patients-and-caregivers/contact-us/pages/home', website_views.pat_contact_home),
     path('patients-and-caregivers/your-needs/pages/home', website_views.pat_needs_home),
     path('patients-and-caregivers/your-needs/pages/hospice-explained', website_views.pat_needs_explained),
@@ -43,11 +43,13 @@ urlpatterns = [
     path('patients-and-caregivers/giving-back/pages/community-supporters', website_views.pat_giving_supporters),
     path('patients-and-caregivers/giving-back/pages/donate-to-charity', website_views.pat_giving_charity),
     path('patients-and-caregivers/giving-back/pages/patient-wishlist', website_views.pat_giving_wish),
-    path('professionals/pages/home', website_views.prof_home),
+    path('professionals/pages/home',  website_views.prof_home),
     path('professionals/pages/reimbursement-of-services', website_views.prof_reimbursement),
     path('professionals/refer-a-patient/pages/home', website_views.prof_refer_home),
     path('professionals/refer-a-patient/pages/admission-criteria', website_views.prof_refer_admission),
-    path('professionals/careers/pages/home', website_views.prof_careers_home),
+    path('professionals/refer-a-patient/pages/care-settings', website_views.prof_refer_care),
+    path('professionals/refer-a-patient/pages/quality-assurance', website_views.prof_refer_quality),
+    path('professionals/careers/pages/home',  website_views.prof_careers_home),
     path('professionals/careers/pages/job-openings', website_views.prof_careers_jobs),
     path('patients-and-caregivers/about-us/pages/home', website_views.footer_about),
     path('patients-and-caregivers/about-us/pages/history', website_views.footer_history),

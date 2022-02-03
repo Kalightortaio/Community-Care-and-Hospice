@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- Developed by Krishna Kokatay, 2019. Visit my website: www.kalightortaio.com -->
+    <!-- Responsive design and grid formatting by Michael Amic-Angelo, 2019. Visit my website: www.amicandesign.com -->    <meta charset="utf-8">
+    <meta id="viewport" name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Community Care</title>
+    {% load static %}
+    <link rel="icon" href="{% static '/website/images/favicon.png' %}">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="{% static 'website/cssmobile/footer.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'website/cssmobile/main.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'website/cssmobile/media.css'%}">
+    <link rel="stylesheet" type="text/css" href="{% static 'website/cssmobile/pat-news-grief-article.css' %}">
+  </head>
+  <body>
+      <div id="global">
+    {% include "../../base/pat-navbar.html" %}
+      <div id="content-wrapper">
+        <div class="centered hidelink mainbody">
+          <img class="banner" src="{% static '/website/images/news.png' %}" alt="Banner - Community Care and Hospice" />
+          <div class="sitemap">
+            <span><a href="/patients-and-caregivers/pages/home">Patients and Caregivers&nbsp;</a></span>
+            <span class="fa fa-caret-right"></span>
+            <span><a href="/patients-and-caregivers/volunteer-and-community/pages/home">&nbsp;Volunteer and Community&nbsp;</a></span>
+            <span class="fa fa-caret-right"></span>
+            <span><a href="/patients-and-caregivers/news-and-media/pages/home">&nbsp;News and Media&nbsp;</a></span>
+            <span class="fa fa-caret-right"></span>
+            <span><a href="/patients-and-caregivers/news-and-media/pages/about-grief">&nbsp;About Grief&nbsp;</a></span>
+            <span class="fa fa-caret-right"></span>
+            <span><a href="/patients-and-caregivers/news-and-media/pages/about-grief/mindfulness-and-grief">&nbsp;Mindfulness and Grief&nbsp;</a></span>
+          </div>
+          <div class="content">
+            <img class="bufferdown" src="{% static '/website/images/serene.png' %}" alt="Inner peace" />
+            <span class="title">Mindfulness and Grief</span>
+            <p class="p1"><span>Mindfulness is a buzzword these days but what exactly is it and how does it relate to grief? Mindfulness is the practice of purposely focusing your attention on the present moment and accepting it without judgment. Practicing mindfulness has been proven to improve both mental and physical health. As such, it can be a great tool to use during the grieving process when you find yourself both physically and mentally exhausted.</span></p>
+            <p class="p1"><span>Mindfulness can ease your physical symptoms of grief, help calm your mind, regulate difficult emotions and improve your ability to focus on the present. It can increase compassion toward yourself and others and help you make meaning of the loss.</span></p>
+            <p class="p1"><span>There are many ways to practice mindfulness. All are a form of meditation. Some folks learn to meditate on their own by following instructions in books or recordings and others benefit from the support of an instructor or group. It takes practice to become comfortable with these techniques. If one method doesn’t work for you, try another.</span></p>
+            <p class="p1"><span>Learning to stay in the present is a less formal approach to mindfulness. You can practice during any activity. Here are four helpful tips:</span></p>
+            <ul>
+              <li><span class="p1">Start by bringing your attention to the sensations in your body.</span></li>
+              <li><span class="p1">Breathe in through your nose and out through your mouth.</span></li>
+              <li><span class="p1">Proceed with the task at hand slowly and with intention.</span></li>
+              <li><span class="p1">Engage all of your senses. Be aware of sight, touch, smell and sound.</span></li>
+            </ul>
+            <p class="p1"><span>When you notice that your mind has wandered from the task at hand, gently bring your attention back to the moment, focus on your breath and sensations.</span></p>
+            <p class="p1"><span>The goal of any mindfulness practice is to achieve an alert state of focused relaxation by paying attention to thoughts and sensations without judgment. Accept whatever arises in your awareness at each moment. Most importantly, mindfulness involves being kind and forgiving toward yourself.</span></p>
+            <p class="p1"><span>Grief is a powerful emotion and can be overwhelming. Mindfulness can help navigate the vast feelings of grief. You may find that you can allow the grief to rise up, observe it, hold it intentionally in awareness and notice that grief ebbs and flows.</span></p>
+          </div>
+          <div class="side-content">
+            <ul class="tableofcontents">
+              <li>
+                <a href="/patients-and-caregivers/news-and-media/pages/journey"><span>Journey</span></a>
+              </li>
+              <li>
+                <a href="/patients-and-caregivers/news-and-media/pages/about-grief" class="active"><span>About Grief</span></a>
+              </li>
+              <li>
+                <a href="/patients-and-caregivers/news-and-media/pages/community-connections"><span>Community Connections</span></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        {% include "../../base/footer.html" %}
+      </div>
+      </div>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous" defer></script>
+    <script type="text/javascript" src="{% static 'website/jsmobile/navbar.js' %}" defer></script>
+  </body>
+</html>
+

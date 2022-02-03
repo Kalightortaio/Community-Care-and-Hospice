@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- Developed by Krishna Kokatay, 2019. Visit my website: www.kalightortaio.com -->
+    <!-- Responsive design and grid formatting by Michael Amic-Angelo, 2019. Visit my website: www.amicandesign.com -->    <meta charset="utf-8">
+    <meta id="viewport" name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Community Care</title>
+    {% load static %}
+    <link rel="icon" href="{% static '/website/images/favicon.png' %}">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="{% static 'website/cssmobile/footer.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'website/cssmobile/main.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'website/cssmobile/media.css'%}">
+    <link rel="stylesheet" type="text/css" href="{% static 'website/cssmobile/pat-services-quality.css' %}">
+  </head>
+  <body>
+      <div id="global">
+    {% include "../base/pat-navbar.html" %}
+      <div id="content-wrapper">
+        <div class="centered hidelink mainbody">
+          <img class="banner" src="{% static '/website/images/laughing.png' %}" alt="Family smiling" />
+          <div class="sitemap">
+            <span><a href="/patients-and-caregivers/pages/home">Patients and Caregivers&nbsp;</a></span>
+            <span class="fa fa-caret-right"></span>
+            <span><a href="/patients-and-caregivers/our-services/pages/home">&nbsp;Our Services&nbsp;</a></span>
+            <span class="fa fa-caret-right"></span>
+            <span><a href="/patients-and-caregivers/our-services/pages/quality-assurance">&nbsp;Quality Assurance</a></span>
+          </div>
+          <div class="content">
+            <span class="title">Quality Assurance</span>
+            <p><span class="titletext2">Our Mission</span></p>
+            <p class="p1"><span>Community Care & Hospice provides end-of-life care, caregiver support, and bereavement services throughout Ventura and Greater Los Angeles. In celebration of the individual worth of each life, we strive to relieve suffering, enhance comfort, promote quality of life, foster choice in end-of-life care, and support effective grieving.</span></p>
+            <p><span class="titletext2">Our Commitment</span></p>
+            <p class="p1"><span>Public reporting on aggregate websites allow patients and their caregivers to objectively evaluate hospices in their communities to help determine which might best meet their needs.</span></p>
+            <p class="p1"><span>“Community Care and Hospice is committed to providing exceptional care to each patient and family,” said Usha Kokatay, Director of Nursing. “We closely monitor our patient satisfaction scores and conduct performance improvement projects on any low scoring area, with the goal of exceeding the regional average in all areas. In addition, any family that shares negative criticism is contacted by a member of our management team to reconcile and gather more information so that we can improve care moving forward.”</span></p>
+            <img src="{% static '/website/images/flowers.png' %}" alt="Hydrangeas" />
+            <p><span class="titletext2">Testimonials</span></p>
+            <p><span class="testimonial"><span class="noitalics bold">Kim Rosmaier</span><br />The compassion shown and assistance provided by Usha and the staff of Community Care and Hospice will not be soon forgotten by my family or me. Usha spent hours explaining to us what will occur during my mom's last hours. She responded promptly to my phone calls and texts. She provided assistance in obtaining the items needed to bring mom home. She guided us through the time leading to my mom's passing. She assisted us with the final arrangements. Her incredible compassion soothed us during this difficult time. Thank you Usha.</span></p>
+            <p><span class="testimonial"><span class="noitalics bold">Elizabeth Molina</span><br />Usha Kokatay of Community Care and Hospice cared not just for my mom in her final year of life but helped me to understand the dying process and how to best care for her. The staff was always professional yet kind and loving. We were both treated with respect and dignity. Her knowledge and empathy exceeded our expectations. We were treated with kindness, patience and love. I am so thankful and appreciative of CCH.</span></p>
+            <p class="p1"><span>Have a testimonial you would like to share? Leave us a review at <a href="https://tinyurl.com/y2h65l5p" target="_blank" class="showlink"><span>Google Reviews</span></a>.</span></p>
+          </div>
+          <div class="side-content">
+            <ul class="tableofcontents">
+              <li>
+                <a href="/patients-and-caregivers/our-services/pages/care-settings"><span>Care Settings</span></a>
+              </li>
+              <li>
+                <a href="/patients-and-caregivers/our-services/pages/quality-assurance" class="active"><span>Quality Assurance</span></a>
+              </li>
+              <li>
+                <a href="/patients-and-caregivers/our-services/pages/caregiver-training-guide"><span>Caregiver Training Guide</span></a>
+              </li>
+              <li>
+                <a href="/patients-and-caregivers/contact-us/pages/home"><span>Contact Us</span></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        {% include "../base/footer.html" %}
+      </div>
+      </div>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous" defer></script>
+    <script type="text/javascript" src="{% static 'website/jsmobile/navbar.js' %}" defer></script>
+  </body>
+</html>

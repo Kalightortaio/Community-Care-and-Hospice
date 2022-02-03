@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- Developed by Krishna Kokatay, 2019. Visit my website: www.kalightortaio.com -->
+    <!-- Responsive design and grid formatting by Michael Amic-Angelo, 2019. Visit my website: www.amicandesign.com -->    <meta charset="utf-8">
+    <meta id="viewport" name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Community Care</title>
+    {% load static %}
+    <link rel="icon" href="{% static '/website/images/favicon.png' %}">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="{% static 'website/cssmobile/footer.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'website/cssmobile/main.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'website/cssmobile/media.css'%}">
+    <link rel="stylesheet" type="text/css" href="{% static 'website/cssmobile/pat-news-grief-article.css' %}">
+  </head>
+  <body>
+      <div id="global">
+    {% include "../../base/pat-navbar.html" %}
+      <div id="content-wrapper">
+        <div class="centered hidelink mainbody">
+          <img class="banner" src="{% static '/website/images/news.png' %}"  alt="Banner - Community Care + Hospice" />
+          <div class="sitemap">
+            <span><a href="/patients-and-caregivers/pages/home">Patients and Caregivers&nbsp;</a></span>
+            <span class="fa fa-caret-right"></span>
+            <span><a href="/patients-and-caregivers/volunteer-and-community/pages/home">&nbsp;Volunteer and Community&nbsp;</a></span>
+            <span class="fa fa-caret-right"></span>
+            <span><a href="/patients-and-caregivers/news-and-media/pages/home">&nbsp;News and Media&nbsp;</a></span>
+            <span class="fa fa-caret-right"></span>
+            <span><a href="/patients-and-caregivers/news-and-media/pages/about-grief">&nbsp;About Grief&nbsp;</a></span>
+            <span class="fa fa-caret-right"></span>
+            <span><a href="/patients-and-caregivers/news-and-media/pages/about-grief/death-from-an-overdose">&nbsp;Death From an Overdose: Managing the Grief&nbsp;</a></span>
+          </div>
+          <div class="content">
+            <img class="bufferdown" src="{% static '/website/images/overdose.png' %}"  alt="Overdose" />
+            <span class="title">Death From an Overdose: Managing the Grief</span>
+            <p class="p1"><span>According to the Centers for Disease Control and Prevention, death rates from drug poisoning have tripled since 2012. The increase from 2010 through 2013 was a devastating 37%. Deaths have shifted from middle and older-aged men to younger white men from Middle America.</span></p>
+            <p class="p1"><span>It’s tragic and impacts the bereaved on many levels.</span></p>
+            <p class="p1"><span>Grief reactions are often intricate and complex. When you add that the person died from an overdose, accidental or not, it complicates matters. There is a myriad of emotions that occur when someone dies and when someone dies from an overdose, the most difficult ones rise to the surface.</span></p>
+            <p class="p1"><span>Shame, blame, guilt, stigma, isolation, loneliness, fear and anxiety are common place.</span></p>
+            <p class="p1"><span>Sometimes the bereaved feel guilty. They relive over and over the “should haves, could haves” and “if onlys.”  The bereaved often blame themselves and they blame others. Shame is a common reaction. Some feel judged for loving someone with an addiction or for having an addiction themselves. Unfortunately, the shame makes people hesitant to share. Consequently, they don’t reach out but rather become isolated and lonely. Be sure to talk to someone you trust about your emotions.</span></p>
+            <p class="p1"><span>Fear and anxiety are also prevalent grief reactions with a substance abuse death. There is the fear that other family members or friends will overdose or that people who are currently using might die. And, there is the fear of relapse for people in recovery.</span></p>
+            <p class="p1"><span>The stigma society imposes for substance abuse loss is overwhelming and there is an overlap between intentional overdose and unintentional overdose. Unfortunately, people deeply misunderstand addiction and mental illness.</span></p>
+            <p class="p1"><span><a href="WhatsYourGrief.com" target="_blank" class="showlink">WhatsYourGrief.com</a> suggests the following to help manage grief after a substance abuse death:</span></p>
+            <ol>
+              <li><span class="p1">Accept the role substances played in the death.</span></li>
+              <li><span class="p1">Find a way to work through and express emotions. This could be through talking, writing, making art or music, hiking, etc. Do whatever works for you.</span></li>
+              <li><span class="p1">Educate yourself and understand addiction. Understanding addiction can help put to rest feelings of guilt and blame. One thing to learn is that we don’t always have control over someone else’s addiction.</span></li>
+              <li><span class="p1">Surround yourself with the right support system. Avoid those who disenfranchise your grief. You might find comfort with a counselor or a support group with others who are also experiencing grief of an overdose death.</span></li>
+            </ol>
+            <p class="p1"><span>Grief includes all kinds of feelings. If you feel overwhelmed with emotion, trust the grief process and give yourself permission to be with all your feelings. Know that there are others out there who feel the same. And, there are counselors and support groups that will welcome and support you. You do not have to grieve alone.</span></p>
+          </div>
+          <div class="side-content">
+            <ul class="tableofcontents">
+              <li>
+                <a href="/patients-and-caregivers/news-and-media/pages/journey"><span>Journey</span></a>
+              </li>
+              <li>
+                <a href="/patients-and-caregivers/news-and-media/pages/about-grief" class="active"><span>About Grief</span></a>
+              </li>
+              <li>
+                <a href="/patients-and-caregivers/news-and-media/pages/community-connections"><span>Community Connections</span></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        {% include "../../base/footer.html" %}
+      </div>
+      </div>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous" defer></script>
+    <script type="text/javascript" src="{% static 'website/jsmobile/navbar.js' %}" defer></script>
+  </body>
+</html>
+

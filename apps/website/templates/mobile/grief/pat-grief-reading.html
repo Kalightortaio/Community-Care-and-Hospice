@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- Developed by Krishna Kokatay, 2019. Visit my website: www.kalightortaio.com -->
+    <!-- Responsive design and grid formatting by Michael Amic-Angelo, 2019. Visit my website: www.amicandesign.com -->    <meta charset="utf-8">
+    <meta id="viewport" name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Community Care</title>
+    {% load static %}
+    <link rel="icon" href="{% static '/website/images/favicon.png' %}">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="{% static 'website/cssmobile/footer.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'website/cssmobile/main.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'website/cssmobile/media.css'%}">
+    <link rel="stylesheet" type="text/css" href="{% static 'website/cssmobile/pat-grief-reading.css' %}">
+  </head>
+  <body>
+      <div id="global">
+    {% include "../base/pat-navbar.html" %}
+      <div id="content-wrapper">
+        <div class="centered hidelink mainbody">
+          <img class="banner"  src="{% static '/website/images/bench.png' %}"  alt="Bench on beach during sunset" />
+          <div class="sitemap">
+            <span><a href="/patients-and-caregivers/pages/home">Patients and Caregivers&nbsp;</a></span>
+            <span class="fa fa-caret-right"></span>
+            <span><a href="/patients-and-caregivers/grief-services/pages/home">&nbsp;Grief Services&nbsp;</a></span>
+            <span class="fa fa-caret-right"></span>
+            <span><a href="/patients-and-caregivers/grief-services/pages/reading-and-information">&nbsp;Reading and Information&nbsp;</a></span>
+          </div>
+          <div class="content">
+            <img src="{% static '/website/images/tablet.png' %}" alt="Reading on Tablet" />
+            <span class="title">Reading and Information</span>
+            <p><span class="titletext">Grief and Loss, for Adults</span></p>
+            <table>
+              <tr>
+                <td>
+                  <ul>
+                    <li><a href="{% static 'website/documents/commongrief.pdf' %}" class="showlink" target="_blank"><span>&nbsp;Common Grief Reactions (PDF)</span></a></li>
+                    <li><a href="{% static 'website/documents/grievingcoworker.pdf' %}" class="showlink" target="_blank"><span>&nbsp;Aiding a Grieving Friend or &nbsp;Coworker (PDF)</span></a></li>
+                    <li><a href="/patients-and-caregivers/news-and-media/pages/about-grief/pregnancy-loss" class="showlink"><span>&nbsp;​​Pregnancy Loss</span></a></li>
+                    <li><a href="/patients-and-caregivers/news-and-media/pages/about-grief/grieving-the-death-of-a-partner" class="showlink"><span>&nbsp;​Grieving the Death of a &nbsp;Partner/Spouse</span></a></li>
+                  </ul>
+                </td>
+                <td>
+                  <ul>
+                    <li><a href="/patients-and-caregivers/news-and-media/pages/about-grief/when-men-grieve" class="showlink"><span>&nbsp;When Men Grieve</span></a></li>
+                    <li><a href="{% static 'website/documents/complicatedgrief.pdf' %}" class="showlink" target="_blank"><span>&nbsp;Complicated Grief (PDF)</span></a></li>
+                    <li><a href="/patients-and-caregivers/news-and-media/pages/about-grief/grief-and-substance-abuse" class="showlink"><span>&nbsp;Grief and Substance Abuse</span></a></li>
+                    <li><a href="/patients-and-caregivers/news-and-media/pages/about-grief/grief-and-the-older-adult" class="showlink"><span>&nbsp;Grief and the Older Adult</span></a></li>
+                  </ul>
+                </td>
+              </tr>
+            </table>
+            <p><span class="titletext">​Grief and Loss, for Children</span></p>
+            <table>
+              <tr>
+                <td>
+                  <ul>
+                    <li><a href="{% static 'website/documents/parenttoolkit.pdf' %}" class="showlink" target="_blank"><span>&nbsp;Parent Toolkit (PDF)</span></a></li>
+                    <li><a href="/patients-and-caregivers/news-and-media/pages/about-grief/tips-for-bereaved-college-students" class="showlink"><span>&nbsp;​Tips for Bereaved College &nbsp;Students</span></a></li>
+                  </ul>
+                </td>
+                <td>
+                  <ul>
+                    <li><a href="/patients-and-caregivers/news-and-media/pages/about-grief/tips-for-bereaved-teen-coping" class="showlink"><span>&nbsp;​Tips for Bereaved Teen Coping</span></a></li>
+                    <li><a href="/patients-and-caregivers/news-and-media/pages/about-grief/returning-to-school-after-death" class="showlink"><span>&nbsp;​​Returning to School after the &nbsp;Death of a Loved One</span></a></li>
+                  </ul>
+                </td>
+              </tr>
+            </table>
+            <p><span class="titletext">​Sudden Death</span></p>
+            <table>
+              <tr>
+                <td>
+                  <ul>
+                    <li><a href="{% static 'website/documents/trauma.pdf' %}" class="showlink" target="_blank"><span>&nbsp;Trauma and Grief (PDF)</span></a></li>
+                    <li><a href="/patients-and-caregivers/news-and-media/pages/about-grief/coping-with-grief-and-loss-after-a-suicide" class="showlink"><span>&nbsp;​Coping with Grief and Loss After &nbsp;a Suicide</span></a></li>
+                  </ul>
+                </td>
+                <td>
+                  <ul>
+                    <li><a href="/patients-and-caregivers/news-and-media/pages/about-grief/death-from-an-overdose" class="showlink"><span>&nbsp;Death from an Overdose</span></a></li>
+                    <li><a href="/patients-and-caregivers/news-and-media/pages/about-grief/when-the-unthinkable-happens" class="showlink"><span>&nbsp;When the Unthinkable Happens: &nbsp;Homicide and Grief</span></a></li>
+                  </ul>
+                </td>
+              </tr>
+            </table>
+            <p><span class="titletext">​Miscellaneous</span></p>
+            <table>
+              <tr>
+                <td>
+                  <ul>
+                    <li><a href="/patients-and-caregivers/news-and-media/pages/about-grief/pet-loss" class="showlink"><span>&nbsp;Pet Loss</span></a></li>
+                    <li><a href="/patients-and-caregivers/news-and-media/pages/about-grief/mindfulness-and-grief" class="showlink"><span>&nbsp;Mindfulness and Grief</span></a></li>
+                  </ul>
+                </td>
+                <td>
+                  <ul>
+                    <li><a href="/patients-and-caregivers/news-and-media/pages/about-grief/online-condolences" class="showlink"><span>&nbsp;Online Condolences</span></a></li>
+                    <li><a href="/patients-and-caregivers/news-and-media/pages/about-grief/loneliness-and-grief" class="showlink"><span>&nbsp;Loneliness and Grief</span></a></li>
+                  </ul>
+                </td>
+              </tr>
+            </table>
+          </div>
+          <div class="side-content">
+            <ul class="tableofcontents">
+              <li>
+                <a href="/patients-and-caregivers/grief-services/pages/FAQ"><span>FAQ</span></a>
+              </li>
+              <li>
+                <a href="/patients-and-caregivers/grief-services/pages/resources"><span>Resources</span></a>
+              </li>
+              <li>
+                <a href="/patients-and-caregivers/grief-services/pages/reading-and-information" class="active"><span>Reading and Information</span></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        {% include "../base/footer.html" %}
+      </div>
+      </div>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous" defer></script>
+    <script type="text/javascript" src="{% static 'website/jsmobile/navbar.js' %}" defer></script>
+  </body>
+</html>
+

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- Developed by Krishna Kokatay, 2019. Visit my website: www.kalightortaio.com -->
+    <!-- Responsive design and grid formatting by Michael Amic-Angelo, 2019. Visit my website: www.amicandesign.com -->    <meta charset="utf-8">
+    <meta id="viewport" name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Community Care</title>
+    {% load static %}
+    <link rel="icon" href="{% static '/website/images/favicon.png' %}">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="{% static 'website/css/main.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'website/css/prof-base.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'website/css/pat-services-care.css' %}">
+  </head>
+  <body>
+    {% include "../base/prof-navbar.html" %}
+      <div id="content-wrapper">
+        <div class="centered hidelink">
+          <img src="{% static '/website/images/referbanner.png' %}" height="210" width="1140" alt="Family smiling" />
+          <div class="sitemap">
+            <span><a href="/professionals/pages/home">Professionals&nbsp;</a></span>
+            <span class="fa fa-caret-right"></span>
+            <span><a href="/professionals/refer-a-patient/pages/home">&nbsp;Refer a Patient&nbsp;</a></span>
+            <span class="fa fa-caret-right"></span>
+            <span><a href="/professionals/refer-a-patient/pages/care-settings">&nbsp;Care Settings</a></span>
+          </div>
+          <div class="content">
+            <span class="title">Care Settings</span>
+            <p><span class="titletext">Patients and families have the right to choice in their hospice care provider and it is important to note that experience and the scope of services provided can vary significantly. We encourage patients and families to ask for Community Care & Hospice by name.</span></p>
+            <div class="divider"></div>
+            <p><span class="titletext2">Hospice Care in Your Private Home</span></p>
+            <p><span class="p1">Many of our patients stay in their own home or live in a loved one's home. If this is your preference, we'll do whatever possible to keep you in your home or with your family and friends. We understand there is no substitute for being in a familiar environment surrounded by those you love.</span></p>
+            <div class="hiddendiv1">
+              <div>
+                <img src="{% static '/website/images/nursebloodpressure.png' %}" height="220" width="300" alt="Smiling staff with elderly man" />
+                <p><span>Our staff will visit you in your home to determine whether hospice is right for you. If it is, members of your hospice care team will make regular visits. You and your loved ones can call whenever there is a problem or if you have a question between scheduled visits. Many immediate concerns can be answered over the phone, but, if not, a team member will visit as soon as possible, usually within a few hours.</span></p>
+                <p><span>Sometimes, home care patients experience a brief, acute episode that requires additional assistance to manage pain or difficult symptoms. This does not mean the patient must go to the hospital. Often individuals do not need or want to be hospitalized. And while assisted non-residential care is a possibility, staying at home is usually the goal. We can however, arrange temporary, continuous respite care for a few days, in order to keep the patient comfortable and in the safe, familiar surroundings of home.</span></p>
+              </div>
+              <button class="toggle1">
+                <span>show more&nbsp;&nbsp;<i class="fas fa-caret-down fa-lg"></i></span>
+              </button>
+            </div>
+            <p><span class="titletext2">Hospice Care in Assisted Living Communities & Nursing Centers</span></p>
+            <img src="{% static '/website/images/nursewindow.png' %}" height="220" width="300" alt="WheelChair and Staff" />
+            <p class="p2"><span>Assisted living communities and nursing centers have become more common and more popular. And many younger and healthier people are entering senior communities with the intention of aging in place, even as their medical needs change. The medical community refers to all these living environments as "alternative home" settings. They include:  assisted living, nursing facilities, long-term care centers, group homes or other residential care settings.</span></p>
+            <div class="hiddendiv2">
+              <div>
+                <p><span>We have dedicated Community Care & Hospice staff that partner with alternative home staff to care for the individuals who live in them and require hospice care. By working together, we enhance the residential facility's excellent services. We provide additional expertise in pain and symptom management, grief support, on-going consultation and access to our on-call hospice staff.</span></p>
+                <p><span>Families appreciate that Community Care & Hospice is offering an extra layer of care for their loved one. Our partners appreciate having additional clinical staff available to their residents who may need a little extra help.</span></p>
+              </div>
+              <button class="toggle2">
+                <span>show more&nbsp;&nbsp;<i class="fas fa-caret-down fa-lg"></i></span>
+              </button>
+            </div>
+            <p><span class="titletext2">Hospice Care in the Hospital</span></p>
+            <p class="p1"><span>Patients can begin hospice care prior to their discharge from the hospital, in order to make the transition to home seamless. You and your loved one don't have to wait until you've left the hospital and made the trip home to worry about hospital beds, walkers or other specialty equipment that would enhance comfort. By calling us while your loved one is still in the hospital, we can arrange for any necessary equipment, including oxygen, bedding and furnishings. And we can arrange for the delivery of medication and home care needs before they are needed at home.</span></p>
+            <p class="p1"><span>For patients who are not leaving the hospital setting, hospice services can complement the care provided by hospital staff. Community Care & Hospice provides care at all Ventura and Greater Los Angeles hospitals.</span></p>
+          </div>
+          <div class="side-content">
+            <ul class="tableofcontents">
+              <li>
+                <a href="/professionals/refer-a-patient/pages/admission-criteria"><span>Admission Criteria</span></a>
+              </li>
+              <li>
+                <a href="/professionals/refer-a-patient/pages/care-settings" class="active"><span>Care Settings</span></a>
+              </li>
+              <li>
+                <a href="/professionals/refer-a-patient/pages/quality-assurance"><span>Quality Assurance</span></a>
+              </li>
+            </ul>
+            <div class="referralbox">
+              <span class="title">We Can Help</span><br />
+              <p><span>For additional information, call one of our representatives.</span></p>
+              <div class="fa fa-caret-down fa-3x"></div>
+            </div>
+            <span class="blue">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Call Today</span><br />
+            <img src="{% static 'website/images/phone-favicon.ico' %}" height="16" width="16" alt="phone_icon">
+            <a href="tel:8056678558"><span class="blue">&nbsp;&nbsp;805.667.8558&nbsp;</span></a>
+          </div>
+        </div>
+      </div>
+      {% include "../base/footer.html" %}
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous" defer></script>
+    <script type="text/javascript" src="{% static 'website/js/navbar.js' %}" defer></script>
+    <script type="text/javascript" src="{% static 'website/js/twohiddendivs.js' %}" defer></script>
+  </body>
+</html>
