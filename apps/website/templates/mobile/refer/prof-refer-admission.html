@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- Developed by Krishna Kokatay, 2019. Visit my website: www.kalightortaio.com -->
+    <!-- Responsive design and grid formatting by Michael Amic-Angelo, 2019. Visit my website: www.amicandesign.com -->    <meta charset="utf-8">
+    <meta id="viewport" name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Community Care</title>
+    {% load static %}
+    <link rel="icon" href="{% static '/website/images/favicon.png' %}">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="{% static 'website/cssmobile/footer.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'website/cssmobile/main.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'website/cssmobile/media.css'%}">
+    <link rel="stylesheet" type="text/css" href="{% static 'website/cssmobile/prof-refer-admission.css' %}">
+  </head>
+  <body>
+      <div id="global">
+    {% include "../base/prof-navbar.html" %}
+      <div id="content-wrapper">
+        <div class="centered hidelink mainbody">
+          <div class="sitemap">
+            <span><a href="/professionals/pages/home">Professionals&nbsp;</a></span>
+            <span class="fa fa-caret-right"></span>
+            <span><a href="/professionals/refer-a-patient/pages/home">&nbsp;Refer a Patient&nbsp;</a></span>
+            <span class="fa fa-caret-right"></span>
+            <span><a href="/professionals/refer-a-patient/pages/admission-criteria">&nbsp;Admission Criteria</a></span>
+          </div>
+          <div class="content">
+            <span class="title">Admission Criteria</span>
+            <p><span class="titletext2">Community Care & Hospice is a community supported organization providing comprehensive hospice services for those individuals with a serious illness.</span></p>
+            <p class="p1"><span>Several clinical studies have demonstrated the benefit hospice care can have for patients diagnosed with dementia, cardiopulmonary disease, kidney disease, cancer and other terminal diagnoses.</span></p>
+            <p class="p1"><span>Community Care & Hospice team members collaborate with patients, families, caregivers, referral sources and other healthcare professionals to provide holistic support for patients throughout Ventura and Greater Los Angeles in any setting (i.e. residential home, nursing facility, group home, hospitals, in-patient units or a patient’s private home). We are always available to answer any questions.</span></p>
+            <p><span class="titletext2">Referral Information</span></p>
+            <p class="p1"><span>The following questions may help determine whether a patient needs our help.</span></p>
+            <p class="p1 bold"><span>A patient who:</span></p>
+            <ul>
+              <li><span>May not survive within the year</span></li>
+              <li><span>Is facing difficult conversations regarding end of life decisions</span></li>
+              <li><span>Is seriously ill and pain management is needed</span></li>
+              <li><span>Has more than one chronic condition</span></li>
+              <li><span>Has been admitted to the ER/hospital several times within six months</span></li>
+            </ul>
+            <p class="p1 bold"><span>As a caregiver:</span></p>
+            <ul>
+              <li><span>How many hours do you spend caregiving?</span></li>
+              <li><span>Is the amount of care you’re providing overwhelming?</span></li>
+              <li><span>Are you getting help from friends and family members?</span></li>
+              <li><span>Have you been ill recently?</span></li>
+              <li><span>Are you experiencing sleep issues?</span></li>
+              <li><span>Are you irritable?</span></li>
+              <li><span>Is the situation taking a toll on your family life or job?</span></li>
+              <li><span>Is it causing a financial strain?</span></li>
+            </ul>
+            <p class="p1"><span>Call Community Care & Hospice at 805.667.8558 for support. Our staff are available during office hours to speak with patients and families and to answer any questions even before they have selected hospice or a hospice provider.</span></p>
+            <p class="p1 bold"><span>To expedite the referral process, please have the following information ready:</span></p>
+            <ul>
+              <li><span>Physician and Patient Name</span></li>
+              <li><span>Diagnosis</span></li>
+              <li><span>Primary Contact/Caregiver</span></li>
+              <li><span>Insurance provider</span></li>
+            </ul>
+            <p class="p1"><span>You can call our referral team at 805.667.8558, <a href="mailto:comcareh@gmail.com" target="_blank" class="showlink">email us</a>, or fax 805.384.0933.</span></p>
+          </div>
+          <div class="side-content">
+            <ul class="tableofcontents">
+              <li>
+                <a href="/professionals/refer-a-patient/pages/admission-criteria" class="active"><span>Admission Criteria</span></a>
+              </li>
+              <li>
+                <a href="/patients-and-caregivers/our-services/pages/care-settings"><span>Care Settings</span></a>
+              </li>
+              <li>
+                <a href="/patients-and-caregivers/our-services/pages/quality-assurance"><span>Quality Assurance</span></a>
+              </li>
+            </ul>
+            <span class="titletext2">Service Area</span>
+            <p><span>Our service area encircles Ventura and Greater Los Angeles, and includes Santa Barbara to Interstate-605</span></p>
+            <div class="divider"></div>
+            <p><span><span class="bold">Call Community Care & Hospice at 805.667.8558 for support.</span> Our staff are available during office hours to speak with patients and families and to answer any questions even before they have selected hospice or a hospice provider.</span></p>
+            <p class="bold bufferup"><span>To expedite the referral process, please have the following information ready:</span></p>
+            <ul class="ul">
+              <li><span>Physician and Patient Name</span></li>
+              <li><span>Diagnosis</span></li>
+              <li><span>Primary Contact/Caregiver</span></li>
+              <li><span>Insurance provider</span></li>
+            </ul>
+            <p><span>You can call our referral team at 805.667.8558, <a href="mailto:comcareh@gmail.com" target="_blank" class="showlink">email us</a>, or fax 805.384.0933.</span></p>
+          </div>
+        </div>
+        {% include "../base/footer.html" %}
+      </div>
+    </div>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous" defer></script>
+    <script type="text/javascript" src="{% static 'website/jsmobile/navbar.js' %}" defer></script>
+  </body>
+</html>

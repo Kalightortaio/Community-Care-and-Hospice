@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- Developed by Krishna Kokatay, 2019. Visit my website: www.kalightortaio.com -->
+    <!-- Responsive design and grid formatting by Michael Amic-Angelo, 2019. Visit my website: www.amicandesign.com -->    <meta charset="utf-8">
+    <meta id="viewport" name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Community Care</title>
+    {% load static %}
+    <link rel="icon" href="{% static '/website/images/favicon.png' %}">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="{% static 'website/cssmobile/footer.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'website/cssmobile/main.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'website/cssmobile/media.css'%}">
+    <link rel="stylesheet" type="text/css" href="{% static 'website/cssmobile/pat-news-grief-article.css' %}">
+  </head>
+  <body>
+      <div id="global">
+    {% include "../../base/pat-navbar.html" %}
+      <div id="content-wrapper">
+        <div class="centered hidelink mainbody">
+          <img class="banner" src="{% static '/website/images/news.png' %}" alt="Community Care + Hospice" />
+          <div class="sitemap">
+            <span><a href="/patients-and-caregivers/pages/home">Patients and Caregivers&nbsp;</a></span>
+            <span class="fa fa-caret-right"></span>
+            <span><a href="/patients-and-caregivers/volunteer-and-community/pages/home">&nbsp;Volunteer and Community&nbsp;</a></span>
+            <span class="fa fa-caret-right"></span>
+            <span><a href="/patients-and-caregivers/news-and-media/pages/home">&nbsp;News and Media&nbsp;</a></span>
+            <span class="fa fa-caret-right"></span>
+            <span><a href="/patients-and-caregivers/news-and-media/pages/about-grief">&nbsp;About Grief&nbsp;</a></span>
+            <span class="fa fa-caret-right"></span>
+            <span><a href="/patients-and-caregivers/news-and-media/pages/about-grief/returning-to-school-after-death">&nbsp;Returning to School After the Sudden Death of a Loved One&nbsp;</a></span>
+          </div>
+          <div class="content">
+            <img class="bufferdown" src="{% static '/website/images/swings.png' %}" alt="Swings" />
+            <span class="title">Returning to School After the Sudden Death of a Loved One</span>
+            <p class="p1"><span>​The lazy days of summer are quickly coming to an end. As we move into the routine of another school year filled with promise, death is typically the last thing on our minds. Unfortunately, sudden death can strike the lives of students and school communities without warning, leaving despair, uncertainty and pain in its wake.</span></p>
+            <p class="p1"><span>Sudden death presents a unique set of circumstances that can impact children’s grieving process. Death may be due to illness (i.e. heart attack, stroke) or more traumatic circumstances such as accidents, natural disasters, suicide or even homicide. The sudden and overwhelming nature of this type of death can itself be traumatic. Young children are more vulnerable to sudden loss due to developmental limits which affect their ability to process such change. They may show regressive, clingy behaviors, or even seem unaffected by the loss.</span></p>
+            <p class="p1"><span>Older children show distress more directly because they are more likely to grasp the meaning of the loss; they may act out feelings through play or attention-seeking behavior. Teens appear to grieve much like adults; however, deep, intense feelings may be expressed indirectly via self-destructive behavior or withdrawal. Behaviors specific to the school setting such as decreased concentration and memory, school avoidance or even flashbacks and intrusive memories may be observed. Grief reactions can affect students emotionally, physically, cognitively and even spiritually.</span></p>
+            <p class="p1"><span>Thankfully, arming ourselves with knowledge and resources can help to offset feelings of panic and anxiety and aid us in supporting children. Remember that children are intermittent grievers, that grief continues over time and grief responses change as the child ages.</span></p>
+            <p class="p1"><span>Here are some suggestions to assist children after death:</span></p>
+            <ul>
+              <li><span class="p1">Use honesty and simplicity. Children are concrete thinkers and are often confused by metaphors such as “your grandpa is sleeping”, euphemisms and complicated stories.</span></li>
+              <li><span class="p1">Be available to listen and initiate conversations. Children need you to normalize their grief reactions to feel safe expressing them.</span></li>
+              <li><span class="p1">Describe the big feelings of grief. Share ways that you have manage these feelings. Reassure them by letting them know what you are doing to keep them safe and healthy.</span></li>
+              <li><span class="p1">Model healthy coping. Let your children know that it is healthy to cry and that it may make them feel better. Offer creative and safe ways for children to express feelings.</span></li>
+              <li><span class="p1">Maintain daily routines. Routine provides safety and security.</span></li>
+              <li><span class="p1">Encourage involvement in memorializing activities. Remembrance activities, such as collecting photos, retelling their stories or creating a memory box, provide children safe and constructive ways to express their grief.</span></li>
+              <li><span class="p1">Do not lose hope. Help your child carve out a special place in their heart for their loved one while helping them integrate this death into their lives. As they grow and mature, they may feel sadness with each milestone – graduations, family events, holidays, and other special times. Your openness and understanding through these times will be comforting.</span></li>
+            </ul>
+          </div>
+          <div class="side-content">
+            <ul class="tableofcontents">
+              <li>
+                <a href="/patients-and-caregivers/news-and-media/pages/journey"><span>Journey</span></a>
+              </li>
+              <li>
+                <a href="/patients-and-caregivers/news-and-media/pages/about-grief" class="active"><span>About Grief</span></a>
+              </li>
+              <li>
+                <a href="/patients-and-caregivers/news-and-media/pages/community-connections"><span>Community Connections</span></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        {% include "../../base/footer.html" %}
+      </div>
+      </div>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous" defer></script>
+    <script type="text/javascript" src="{% static 'website/jsmobile/navbar.js' %}" defer></script>
+  </body>
+</html>

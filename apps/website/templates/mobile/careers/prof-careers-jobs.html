@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- Developed by Krishna Kokatay, 2019. Visit my website: www.kalightortaio.com -->
+    <!-- Responsive design and grid formatting by Michael Amic-Angelo, 2019. Visit my website: www.amicandesign.com -->    <meta charset="utf-8">
+    <meta id="viewport" name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Community Care</title>
+    {% load static %}
+    <link rel="icon" href="{% static '/website/images/favicon.png' %}">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="{% static 'website/cssmobile/footer.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'website/cssmobile/main.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'website/cssmobile/media.css'%}">
+    <link rel="stylesheet" type="text/css" href="{% static 'website/cssmobile/prof-careers-jobs.css' %}">
+  </head>
+  <body>
+    <div id="global">
+    {% include "../base/prof-navbar.html" %}
+      <div id="content-wrapper">
+        <div class="centered hidelink mainbody">
+          <div class="sitemap">
+            <span><a href="/professionals/pages/home">Professionals&nbsp;</a></span>
+            <span class="fa fa-caret-right"></span>
+            <span><a href="/professionals/careers/pages/home">&nbsp;Careers&nbsp;</a></span>
+            <span class="fa fa-caret-right"></span>
+            <span><a href="/professionals/careers/pages/job-openings">&nbsp;Job Openings</a></span>
+          </div>
+          <div class="content">
+            <span class="title">Job Openings</span>
+            <p class="p1"><span>We're seeking caring, compassionate individuals to join our hospice team in providing care to patients and their families in their time of need. Duties include but are not limited to:</span></p>
+            <p class="pushdown"><a href="javascript:;" target="_blank"><span class="showlink toggle1">Registered Nurse (RN)</span></a></p>
+            <ul class="hiddendiv1">
+              <li><span>Evaluate a patient's physical condition</span></li>
+              <li><span>Develop a care plan that addresses any medical needs and social services</span></li>
+              <li><span>Coordinate the efforts of interdisciplinary team members to provide appropriate care</span></li>
+              <li><span>Perform recertification assessments and complete renewals as required</span></li>
+              <li><span>Conduct supervisory visits for LVNs and CHHAs and complete required documentation</span></li>
+            </ul>
+            <p><a href="javascript:;" target="_blank"><span class="showlink toggle2">Licensed Vocational Nurse (LVN)</span></a></p>
+            <ul class="hiddendiv2">
+              <li><span>Follow the plan of care</span></li>
+              <li><span>Provide treatments i.e. periodic wound care</span></li>
+              <li><span>Order/administer medications</span></li>
+              <li><span>Ensure proper documentation of all provided care</span></li>
+              <li><span>Work collaboratively with the members of interdisciplinary team to help meet positive patient care outcomes</span></li>
+            </ul>
+            <p><a href="javascript:;" target="_blank"><span class="showlink toggle3">Master of Social Work (MSW)</span></a></p>
+            <ul class="hiddendiv3">
+              <li><span>Assist patients and families in making health care decisions based on personal goals of care</span></li>
+              <li><span>Ensure the patient's end-of-life wishes are documented and known by assisting with advance directives, POLST forms</span></li>
+              <li><span>Contacting local agencies and/or community resources that may be of help to patients and families (i.e. hospice agencies, Meals-on-Wheels, Life Alert, etc.)</span></li>
+              <li><span>Assistance with insurance, Medicare, and Medicaid paperwork</span></li>
+              <li><span>Identifying the emotional and spiritual needs of the patient and their loved ones and finding appropriate support as needed</span></li>
+              <li><span>Assistance with bridging family gaps to bring loved ones together whenever possible (for example, help obtain temporary Visa's for out-of-country family members)</span></li>
+              <li><span>Assisting survivors with necessary arrangements and paperwork after death occurs</span></li>
+              <li><span>Assisting survivors in obtaining appropriate grief counseling</span></li>
+              <li><span>Identifying other needs of the patient and their support circle and assisting as needed</span></li>
+            </ul>
+            <p><a href="javascript:;" target="_blank"><span class="showlink toggle4">Certified Home Health Aide (CHHA)</span></a></p>
+            <ul class="hiddendiv4">
+              <li><span>a</span></li>
+              <li><span>b</span></li>
+              <li><span>c</span></li>
+              <li><span>d</span></li>
+              <li><span>e</span></li>
+            </ul>
+            <div class="divider"></div>
+            <p class="p1"><span><span class="italic">All</span> canidates would need to have:</span></p>
+            <ul>
+              <li><span>Current CA professional license</span></li>
+              <li><span>Current CPR certification</span></li>
+              <li><span>Current medical clearance to work (TB, Influenza, physical exam, etc.)</span></li>
+              <li><span>Valid CA driver's license and auto insurance</span></li>
+            </ul>
+            <p><span>Experience is preferred but recent graduates are also encouraged to apply. If interested, please send your resume and <a href="/static/website/documents/application.pdf" target="_blank"><span class="showlink">completed application</span></a> to our business email, then contact our headquarters during office hours. Thank you.</span></p>
+            <p class="pushdown uppercase"><a href="/patients-and-caregivers/volunteer-and-community/pages/prospective-volunteers"><span class="showlink bold">volunteer opportunities</span></a></p>
+          </div>
+        </div>
+
+      {% include "../base/footer.html" %}
+      </div>
+    </div>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous" defer></script>
+    <script type="text/javascript" src="{% static 'website/jsmobile/navbar.js' %}" defer></script>
+    <script type="text/javascript" src="{% static 'website/jsmobile/fourhiddendivs.js' %}" defer></script>
+  </body>
+</html>
+

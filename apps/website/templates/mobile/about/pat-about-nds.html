@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- Developed by Krishna Kokatay, 2019. Visit my website: www.kalightortaio.com -->
+    <!-- Responsive design and grid formatting by Michael Amic-Angelo, 2019. Visit my website: www.amicandesign.com -->    <meta charset="utf-8">
+    <meta id="viewport" name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Community Care</title>
+    {% load static %}
+    <link rel="icon" href="{% static '/website/images/favicon.png' %}">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="{% static 'website/cssmobile/footer.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'website/cssmobile/pat-about-nds.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'website/cssmobile/main.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'website/cssmobile/media.css' %}">
+  </head>
+  <body>
+    <div id="global">
+    {% include "../base/pat-navbar.html" %}
+      <div id="content-wrapper">
+        <div class="centered hidelink mainbody">
+          <img class="banner" src="{% static '/website/images/gazebo.png' %}" alt="Gazebo" />
+          <div class="sitemap">
+            <span><a href="/patients-and-caregivers/pages/home">Patients and Caregivers&nbsp;</a></span>
+            <span class="fa fa-caret-right"></span>
+            <span><a href="/patients-and-caregivers/about-us/pages/home">&nbsp;About Us&nbsp;</a></span>
+            <span class="fa fa-caret-right"></span>
+            <span><a href="/patients-and-caregivers/about-us/pages/non-discrimination-statement">&nbsp;Non-Discrimination Statement&nbsp;</a></span>
+          </div>
+          <div class="content">
+            <span class="title">Non-Discrimination Statement</span>
+            <p class="p1"><span>Community Care & Hospice complies with applicable federal civil rights laws, state civil rights laws, and does not descriminate on the basis of race, color, national origin, age, sexual orientation, disability, sex, gender, or other creed.</span></p>
+            <p class="p1"><span>Community Care & Hospice does not exclude people or treat them differently because of race, color, national origin, age, sexual orientation, disability, sex, gender, or other creed.</span></p>
+            <p class="p1"><span>Community Care & Hospice:</span></p>
+            <ul>
+              <li><span class="p1">Provides free aids and services to people with disabilities to communicate effectively with us</span></li>
+              <li><span class="p1">Has written information in other formats (large print, audio, accessible electronic formats, other formats)</span></li>
+              <li><span class="p1">Provides free language services to people whose primary language is not English</span></li>
+              <li><span class="p1">Provides quality and personalized care without bias</span></li>
+            </ul>
+            <br />
+            <p class="p1"><span>If you believe that Community Care & Hospice has failed to provide these services or discriminated in another way on the basis of race, color, national origin, age, disability, or sex, you can file a grievance in person or by mail, fax, or email. You can also file a civil rights complaint with the U.S. Department of Health and Human Services, Office for Civil Rights electronically through the Office for Civil Rights Complaint Portal, available at <a href="https://ocrportal.hhs.gov/ocr/portal/lobby.jsf" target="_blank" class="showlink">https://ocrportal.hhs.gov/ocr/portal/lobby.jsf</a>, or by mail or phone at: U.S. Department of Health and Human Services, 200 Independence Avenue SW., Room 509F, HHH Building, Washington, DC; 20201, 1.800.868.1019, 1.800.537.7697 (TDD). Complaint forms are available at <a href="http://www.hhs.gov/ocr/office/file/index.html" target="_blank" class="showlink">http://www.hhs.gov/ocr/office/file/index.html</a>.</span></p>
+            <br />
+            <p><span class="italic">Template provided by Department of Health and Human Services 19 March 2019</span></p>
+          </div>
+          <div class="side-content">
+            <ul class="tableofcontents">
+              <li>
+                <a href="/patients-and-caregivers/about-us/pages/history"><span>History</span></a>
+              </li>
+              <li>
+                <a href="/patients-and-caregivers/about-us/pages/non-discrimination-statement" class="active"><span>Non-Discrimination Statement</span></a>
+              </li>
+              <li>
+                <a href="/patients-and-caregivers/about-us/pages/notice-of-privacy-practices"><span>Notice of Privacy Practices</span></a>
+              </li>
+              <li>
+                <a href="/patients-and-caregivers/about-us/pages/affiliations-and-collaborations"><span>Affiliations and Collaborations</span></a>
+              </li>
+              <li>
+                <a href="/patients-and-caregivers/about-us/pages/licensure-and-accreditation"><span>Lincensure and Accreditation</span></a>
+              </li>
+              <li>
+                <a href="/patients-and-caregivers/about-us/pages/communication-policy"><span>Communication Policy</span></a>
+              </li>
+              <li>
+                <a href="/patients-and-caregivers/about-us/pages/sitemap"><span>Sitemap</span></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        {% include "../base/footer.html" %}
+      </div>
+    </div>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous" defer></script>
+    <script type="text/javascript" src="{% static 'website/jsmobile/navbar.js' %}" defer></script>
+  </body>
+</html>
+

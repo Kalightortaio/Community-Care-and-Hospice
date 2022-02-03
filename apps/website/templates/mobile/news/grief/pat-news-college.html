@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- Developed by Krishna Kokatay, 2019. Visit my website: www.kalightortaio.com -->
+    <!-- Responsive design and grid formatting by Michael Amic-Angelo, 2019. Visit my website: www.amicandesign.com -->    <meta charset="utf-8">
+    <meta id="viewport" name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Community Care</title>
+    {% load static %}
+    <link rel="icon" href="{% static '/website/images/favicon.png' %}">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="{% static 'website/cssmobile/footer.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'website/cssmobile/main.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'website/cssmobile/media.css'%}">
+    <link rel="stylesheet" type="text/css" href="{% static 'website/cssmobile/pat-news-grief-article.css' %}">
+  </head>
+  <body>
+      <div id="global">
+    {% include "../../base/pat-navbar.html" %}
+      <div id="content-wrapper">
+        <div class="centered hidelink mainbody">
+          <img class="banner" src="{% static '/website/images/news.png' %}" alt="Banner - Community Care + Hospice" />
+          <div class="sitemap">
+            <span><a href="/patients-and-caregivers/pages/home">Patients and Caregivers&nbsp;</a></span>
+            <span class="fa fa-caret-right"></span>
+            <span><a href="/patients-and-caregivers/volunteer-and-community/pages/home">&nbsp;Volunteer and Community&nbsp;</a></span>
+            <span class="fa fa-caret-right"></span>
+            <span><a href="/patients-and-caregivers/news-and-media/pages/home">&nbsp;News and Media&nbsp;</a></span>
+            <span class="fa fa-caret-right"></span>
+            <span><a href="/patients-and-caregivers/news-and-media/pages/about-grief">&nbsp;About Grief&nbsp;</a></span>
+            <span class="fa fa-caret-right"></span>
+            <span><a href="/patients-and-caregivers/news-and-media/pages/about-grief/tips-for-bereaved-college-students">&nbsp;Tips for Bereaved College Students&nbsp;</a></span>
+          </div>
+          <div class="content">
+            <img class="bufferdown" src="{% static '/website/images/college.png' %}" alt="College" />
+            <span class="title">Tips for Bereaved College Students</span>
+            <p class="p1"><span>According to Dr. David Balk, Ph.D, author of “Helping the Bereaved College Student,” at any time at least 22 to 30 percent of college students are in the first year of grieving the death of a family member. Developmentally, most college students do not have all the coping mechanisms to manage the loss. For some, it could be their first experience with death.</span></p>
+            <p class="p1"><span>Bereaved college students often feel a sense of isolation. “Hi, my mom died” is not a great conversation starter at a party. Furthermore, there can be a toll on concentration and academic performance.</span></p>
+            <p class="p1"><span>Some find support amongst peers, but many peers lack the skills needed to provide that support. In fact, sharing a death-related loss could result in avoidance rather than support.</span></p>
+            <p class="p1"><span>However, many colleges do have guidance centers that offer support, mental help, and emotional help. Talk to your school about where these facilities are located. In the instance that your college does not have a comprehensive health center, you still have the resources of Community Care & Hospice's grief services.</span></p>
+            <p class="p1"><span>Bereaved college students need:</span></p>
+            <ul>
+              <li><span class="p1">The campus to be a safe place of support</span></li>
+              <li><span class="p1">The campus to provide information on grief and loss. Knowing that normal grief entails intense emotional reactions that occur intermittently over time, helps students know that they are not simply going crazy</span></li>
+              <li><span class="p1">To know how to respond to people who ignore their grief or who tell them that they need to get on with it – that it’s not good for them to continue to grieve</span></li>
+              <li><span class="p1">Teachers to allow late work, make-up exams, or incomplete assignments</span></li>
+              <li><span class="p1">To know that they are not alone.</span></li>
+            </ul>
+          </div>
+          <div class="side-content">
+            <ul class="tableofcontents">
+              <li>
+                <a href="/patients-and-caregivers/news-and-media/pages/journey"><span>Journey</span></a>
+              </li>
+              <li>
+                <a href="/patients-and-caregivers/news-and-media/pages/about-grief" class="active"><span>About Grief</span></a>
+              </li>
+              <li>
+                <a href="/patients-and-caregivers/news-and-media/pages/community-connections"><span>Community Connections</span></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        {% include "../../base/footer.html" %}
+      </div>
+      </div>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous" defer></script>
+    <script type="text/javascript" src="{% static 'website/jsmobile/navbar.js' %}" defer></script>
+  </body>
+</html>
+

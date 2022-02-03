@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- Developed by Krishna Kokatay, 2019. Visit my website: www.kalightortaio.com -->
+    <!-- Responsive design and grid formatting by Michael Amic-Angelo, 2019. Visit my website: www.amicandesign.com -->    <meta charset="utf-8">
+    <meta id="viewport" name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Community Care</title>
+    {% load static %}
+    <link rel="icon" href="{% static '/website/images/favicon.png' %}">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="{% static 'website/cssmobile/footer.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'website/cssmobile/main.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'website/cssmobile/media.css'%}">
+    <link rel="stylesheet" type="text/css" href="{% static 'website/cssmobile/prof-refer-home.css' %}">
+  </head>
+  <body>
+      <div id="global">
+    {% include "../base/prof-navbar.html" %}
+      <div id="content-wrapper">
+        <div class="centered hidelink mainbody">
+          <img class="banner"  src="{% static '/website/images/referbanner.png' %}" alt="Refer banner" />
+          <div class="sitemap">
+            <span><a href="/professionals/pages/home">Professionals&nbsp;</a></span>
+            <span class="fa fa-caret-right"></span>
+            <span><a href="/professionals/refer-a-patient/pages/home">&nbsp;Refer a Patient</a></span>
+          </div>
+          <div class="content">
+            <span class="title">Refer a Patient</span>
+            <p><span class="titletext">Community Care & Hospice is a community supported agency that provides comprehensive hospice care to individuals who have been diagnosed with a chronic or serious illness. We care for patients with any diagnosis, at any age, from all walks of life.</span></p>
+            <div class="divider"></div>
+            <p><span class="titletext2">Is it Time to Make a Referral?</span></p>
+            <p class="p1"><span>The following questions may help determine whether a patient needs our help. Contact Community Care & Hospice's Referral Team if your patient:</span></p>
+            <ul>
+              <li><span>May not survive within the year</span></li>
+              <li><span>Is seriously ill and pain management is needed</span></li>
+              <li><span>Has more than one chronic condition</span></li>
+              <li><span>Has been admitted to the ER/hospital several times within six months</span></li>
+              <li><span>Is facing difficult conversations regarding end of life decisions</span></li>
+            </ul>
+            <p class="p1"><span>If you are supporting the caregiver, the following are questions you can ask that may help determine if they and their loved one needs the assistance of Community Care & Hospice:</span></p>
+            <li><span>How many hours do you spend caregiving?</span></li>
+            <li><span>Is the amount of care you're providing overwhelming?</span></li>
+            <li><span>Are you getting help from friends and family members?</span></li>
+            <li><span>Have you been ill recently?</span></li>
+            <li><span>Are you experiencing sleep issues?</span></li>
+            <li><span>Are you irritable?</span></li>
+            <li><span>Is the situation taking a toll on your family life or job?</span></li>
+            <li><span>Is it causing a financial strain?</span></li>
+          </div>
+          <div class="side-content">
+            <ul class="tableofcontents">
+              <li>
+                <a href="/professionals/refer-a-patient/pages/admission-criteria"><span>Admission Criteria</span></a>
+              </li>
+              <li>
+                <a href="/patients-and-caregivers/our-services/pages/care-settings"><span>Care Settings</span></a>
+              </li>
+              <li>
+                <a href="/patients-and-caregivers/our-services/pages/quality-assurance"><span>Quality Assurance</span></a>
+              </li>
+            </ul>
+            <div class="referralbox">
+              <span class="title">We Can Help</span><br />
+              <p><span>Speak with the referral team by contacting us, available during all days of the week. An in-person visit can also be scheduled if it is needed.</span></p>
+              <div class="fa fa-caret-down fa-3x"></div>
+            </div>
+            <span class="blue">Referral Team</span><br />
+            <i class="fas fa-phone"></i>
+            <a href="tel:8056678558"><span class="blue">&nbsp;&nbsp;805.667.8558&nbsp;</span></a>
+            <div class="divider"></div>
+          </div>
+        </div>
+        {% include "../base/footer.html" %}
+      </div>
+      </div>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous" defer></script>
+    <script type="text/javascript" src="{% static 'website/jsmobile/navbar.js' %}" defer></script>
+  </body>
+</html>
+

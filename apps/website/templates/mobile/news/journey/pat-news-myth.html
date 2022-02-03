@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- Developed by Krishna Kokatay, 2019. Visit my website: www.kalightortaio.com -->
+    <!-- Responsive design and grid formatting by Michael Amic-Angelo, 2019. Visit my website: www.amicandesign.com -->    <meta charset="utf-8">
+    <meta id="viewport" name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Community Care</title>
+    {% load static %}
+    <link rel="icon" href="{% static '/website/images/favicon.png' %}">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="{% static 'website/cssmobile/footer.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'website/cssmobile/main.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'website/cssmobile/media.css'%}">
+    <link rel="stylesheet" type="text/css" href="{% static 'website/cssmobile/pat-news-journey-article.css' %}">
+  </head>
+  <body>
+      <div id="global">
+    {% include "../../base/pat-navbar.html" %}
+      <div id="content-wrapper">
+        <div class="centered hidelink mainbody">
+          <img class="banner" src="{% static '/website/images/news.png' %}" alt="Family smiling" />
+          <div class="sitemap">
+            <span><a href="/patients-and-caregivers/pages/home">Patients and Caregivers&nbsp;</a></span>
+            <span class="fa fa-caret-right"></span>
+            <span><a href="/patients-and-caregivers/volunteer-and-community/pages/home">&nbsp;Volunteer and Community&nbsp;</a></span>
+            <span class="fa fa-caret-right"></span>
+            <span><a href="/patients-and-caregivers/news-and-media/pages/home">&nbsp;News and Media&nbsp;</a></span>
+            <span class="fa fa-caret-right"></span>
+            <span><a href="/patients-and-caregivers/news-and-media/pages/journey">&nbsp;Journey&nbsp;</a></span>
+            <span class="fa fa-caret-right"></span>
+            <span><a href="/patients-and-caregivers/news-and-media/pages/journey/myths-about-hospice">&nbsp;Get the Facts: 8 Myths About Hospice&nbsp;</a></span>
+          </div>
+          <div class="content">
+            <img class="bufferdown" src="{% static '/website/images/window.png' %}" alt="Window view" />
+            <span class="title">Get the Facts: 8 Myths About Hospice</span>
+            <p class="p1"><span>​To make the healthcare choices that are best for you and your family, you have to have all the facts. There are many incorrect assumptions made about medical care for the seriously ill. We hope this information will help you make the best decisions for you.</span></p>
+            <p class="p1"><span><span class="accent">myth: </span>“Hospice is only for the last days of life.”<br /><span class="accent">fact: </span>Once it is determined that life expectancy is not years but months, any individual may seek hospice care. By seeking care early in the progression of an illness, patients and their loved ones can benefit from the full scope of services available.</span></p>
+            <p class="p1"><span><span class="accent">myth: </span>”The only outcome is hastened death.”<br /><span class="accent">fact: </span>Hospice neither hastens nor postpones death. However, some patients improve with the supportive care of hospice—so much so that hospice care is no longer suitable.</span></p>
+            <p class="p1"><span><span class="accent">myth: </span>”I can’t keep my own doctor.”<br /><span class="accent">fact: </span>Yes, you can. Your doctor will work hand-in-hand with our specialists in a collaborative team. If you don’t have a primary care doctor, we can help you find one.</span></p>
+            <p class="p1"><span><span class="accent">myth: </span>”All hospices are the same.”<br /><span class="accent">fact: </span>Medicare regulates the basic, core services of hospice care. However, there are key differences in the quality of care that hospices provide and the services they offer.</span></p>
+            <p class="p1"><span><span class="accent">myth: </span>"Hospice care is limited to six months."<br /><span class="accent">fact: </span>Patients may receive hospice care as long as their condition remains serious. The hospice team is responsible for  continually assessing the care needed.</span></p>
+            <p class="p1"><span><span class="accent">myth: </span>”I can’t receive curative treatments or life-sustaining care while in hospice care.”<br /><span class="accent">fact: </span>Treatments may help you manage symptoms and pain and improve your ability to live comfortably. There may also be treatments unrelated to your hospice diagnosis that may be continued. Your doctor can discuss options with you.</span></p>
+            <p class="p1"><span><span class="accent">myth: </span>”Only a doctor can make a referral to hospice.”<br /><span class="accent">fact: </span>Anyone—friend, loved one, clergy, clinical care worker-can call Community Care & Hospice to help you get started. You can call yourself. The choice to begin care is always up to the patient and family.</span></p>
+            <p class="p1"><span><span class="accent">myth: </span>”Hospice is expensive.”<br /><span class="accent">fact: </span>Hospice care, including medications and home visits, is paid by Medicare and Medicaid and is covered by most commercial insurers.</span></p>
+          </div>
+          <div class="side-content">
+            <ul class="tableofcontents">
+              <li>
+                <a href="/patients-and-caregivers/news-and-media/pages/journey" class="active"><span>Journey</span></a>
+              </li>
+              <li>
+                <a href="/patients-and-caregivers/news-and-media/pages/about-grief"><span>About Grief</span></a>
+              </li>
+              <li>
+                <a href="/patients-and-caregivers/news-and-media/pages/community-connections"><span>Community Connections</span></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        {% include "../../base/footer.html" %}
+      </div>
+      </div>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous" defer></script>
+    <script type="text/javascript" src="{% static 'website/jsmobile/navbar.js' %}" defer></script>
+  </body>
+</html>

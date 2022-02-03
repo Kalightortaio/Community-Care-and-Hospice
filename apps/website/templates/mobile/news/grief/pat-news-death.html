@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- Developed by Krishna Kokatay, 2019. Visit my website: www.kalightortaio.com -->
+    <!-- Responsive design and grid formatting by Michael Amic-Angelo, 2019. Visit my website: www.amicandesign.com -->    <meta charset="utf-8">
+    <meta id="viewport" name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Community Care</title>
+    {% load static %}
+    <link rel="icon" href="{% static '/website/images/favicon.png' %}">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="{% static 'website/cssmobile/footer.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'website/cssmobile/main.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'website/cssmobile/media.css'%}">
+    <link rel="stylesheet" type="text/css" href="{% static 'website/cssmobile/pat-news-grief-article.css' %}">
+  </head>
+  <body>
+      <div id="global">
+    {% include "../../base/pat-navbar.html" %}
+      <div id="content-wrapper">
+        <div class="centered hidelink mainbody">
+          <img class="banner" src="{% static '/website/images/news.png' %}" alt="Banner - Community Care + Hospice" />
+          <div class="sitemap">
+            <span><a href="/patients-and-caregivers/pages/home">Patients and Caregivers&nbsp;</a></span>
+            <span class="fa fa-caret-right"></span>
+            <span><a href="/patients-and-caregivers/volunteer-and-community/pages/home">&nbsp;Volunteer and Community&nbsp;</a></span>
+            <span class="fa fa-caret-right"></span>
+            <span><a href="/patients-and-caregivers/news-and-media/pages/home">&nbsp;News and Media&nbsp;</a></span>
+            <span class="fa fa-caret-right"></span>
+            <span><a href="/patients-and-caregivers/news-and-media/pages/about-grief">&nbsp;About Grief&nbsp;</a></span>
+            <span class="fa fa-caret-right"></span>
+            <span><a href="/patients-and-caregivers/news-and-media/pages/about-grief/grieving-the-death-of-a-partner">&nbsp;​Grieving the Death of a Partner/Spouse&nbsp;</a></span>
+          </div>
+          <div class="content">
+            <img class="bufferdown" src="{% static '/website/images/death.png' %}" alt="Facing grief" />
+            <span class="title">​Grieving the Death of a Partner/Spouse</span>
+            <p class="p1"><span>After your spouse or partner dies, you transition from being a couple to being alone. This loss can bring significant changes to your life and it can be difficult to function in a world that has suddenly become so different.</span></p>
+            <p class="p1"><span>The life you shared may feel like it’s crumbled. Here are some ideas to consider as you work your way through your grief:</span></p>
+            <ul>
+              <li><span class="p1">There’s no right or wrong or good or bad way to grieve. Whatever you are feeling is okay.</span></li>
+              <li><span class="p1">You may find that you continue to turn to your loved one to share a story or ask a question. This is natural. In fact, many people find it helpful to continue to speak with their deceased partner or spouse.</span></li>
+              <li><span class="p1">Continue to attend to practical matters. Funeral arrangements, thank you notes, the estate, insurance, and bank accounts all require attention and energy. Do what you must and postpone what you can.</span></li>
+              <li><span class="p1">You may be struggling with what to do with your partner’s personal possessions. Others may offer you advice. Trust your instincts about when it’s the right time for you to go through these items. This is different for each person.</span></li>
+              <li><span class="p1">Communicate with friends and family about what is helpful and what is not helpful to you. You may feel shy about expressing how you feel but know that others will appreciate knowing best how to support you.</span></li>
+              <li><span class="p1">It may be painful to talk about your deceased love one. Continue to include them in your thoughts and conversation through your tears and honor the importance they played in your life.</span></li>
+              <li><span class="p1">Stress and grief can have an impact on the immune system. You may not feel like attending to your health, but work towards maintaining your health as soon as you feel able. Attend to getting proper nutrition and exercise.</span></li>
+              <li><span class="p1">Don’t be pushed into making decisions that you aren’t ready to make. You will need to take control of your financial resources and needs, but take the time to think things through before making any commitments.</span></li>
+              <li><span class="p1">If you think that your emotions are getting the best of you, know that there is help out there in the form of support groups and individual counselling. Reach out to others.</span></li>
+            </ul>
+            <p class="p1"><span>If you feel like you’re on a roller coaster of emotions, know that you aren’t alone. It’s okay to laugh and to cry. Don’t feel as if you need to hold onto only negative emotions. All of your emotions are a tribute to the life you shared together.</span></p>
+          </div>
+          <div class="side-content">
+            <ul class="tableofcontents">
+              <li>
+                <a href="/patients-and-caregivers/news-and-media/pages/journey"><span>Journey</span></a>
+              </li>
+              <li>
+                <a href="/patients-and-caregivers/news-and-media/pages/about-grief" class="active"><span>About Grief</span></a>
+              </li>
+              <li>
+                <a href="/patients-and-caregivers/news-and-media/pages/community-connections"><span>Community Connections</span></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        {% include "../../base/footer.html" %}
+      </div>
+      </div>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous" defer></script>
+    <script type="text/javascript" src="{% static 'website/jsmobile/navbar.js' %}" defer></script>
+  </body>
+</html>
+

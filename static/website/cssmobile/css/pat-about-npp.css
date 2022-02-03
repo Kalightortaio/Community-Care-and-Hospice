@@ -1,0 +1,29 @@
+.p1 a{
+  word-wrap: break-word;
+}
+@media only screen and (min-width: 1024px){
+  .content img {
+    float: left;
+    margin: 5px 20px 10px 0;
+  }
+  .antibufferdown {
+    margin-bottom: -15px;
+  }
+  .content li {
+    padding: 5px;
+  }
+  
+}
+
+@media only screen and (min-width: 786px){
+
+}
+
+@media only screen and (min-width: 381px){
+
+}
+
+@media only screen and (max-width: 381px){
+
+}
+

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+<!-- Developed by Krishna Kokatay, 2019. Visit my website: www.kalightortaio.com -->
+    <!-- Responsive design and grid formatting by Michael Amic-Angelo, 2019. Visit my website: www.amicandesign.com --><meta charset="utf-8">
+<meta id="viewport" name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Community Care</title>
+{% load static %}
+<link rel="icon" href="{% static '/website/images/favicon.png' %}">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+<link rel="stylesheet" type="text/css" href="{% static 'website/cssmobile/footer.css' %}">
+<link rel="stylesheet" type="text/css" href="{% static 'website/cssmobile/pat-about-la.css' %}">
+<link rel="stylesheet" type="text/css" href="{% static 'website/cssmobile/main.css' %}">
+<link rel="stylesheet" type="text/css" href="{% static 'website/cssmobile/media.css' %}">
+</head>
+<body>
+<div id="global">
+{% include "../base/pat-navbar.html" %}
+  <div id="content-wrapper">
+    <div class="centered hidelink mainbody">
+      <img class="banner" src="{% static '/website/images/gazebo.png' %}" alt="Gazebo" />
+      <div class="sitemap">
+        <span><a href="/patients-and-caregivers/pages/home">Patients and Caregivers&nbsp;</a></span>
+        <span class="fa fa-caret-right"></span>
+        <span><a href="/patients-and-caregivers/about-us/pages/home">&nbsp;About Us&nbsp;</a></span>
+        <span class="fa fa-caret-right"></span>
+        <span><a href="/patients-and-caregivers/about-us/pages/licensure-and-accreditation">&nbsp;Lincensure and Accreditation&nbsp;</a></span>
+      </div>
+      <div class="content">
+        <span class="title">Lincensure and Accreditation</span>
+        <img src="{% static '/website/images/ACHC.png' %}" alt="ACHC"/>
+        <ul>
+          <li><span class="p1">Medicaid/Medicare Certified</span></li>
+          <li><span class="p1">Accreditation Commission for Health Care (ACHC) accredited</span></li>
+          <li><span class="p1">Licensed Hospice in California</span></li>
+        </ul>
+        <p class="p1"><span>Community Care & Hospice strives to provide the safest and highest quality of patient care possible. If you have concerns about patient care or patient safety that cannot be resolved through the organization, you are encouraged to contact the ACHC at 855.937.2242.</span></p>
+      </div>
+      <div class="side-content">
+        <ul class="tableofcontents">
+          <li>
+            <a href="/patients-and-caregivers/about-us/pages/history"><span>History</span></a>
+          </li>
+          <li>
+            <a href="/patients-and-caregivers/about-us/pages/non-discrimination-statement"><span>Non Discrimination Statement</span></a>
+          </li>
+          <li>
+            <a href="/patients-and-caregivers/about-us/pages/notice-of-privacy-practices"><span>Notice of Privacy Practices</span></a>
+          </li>
+          <li>
+            <a href="/patients-and-caregivers/about-us/pages/affiliations-and-collaborations"><span>Affiliations and Collaborations</span></a>
+          </li>
+          <li>
+            <a href="/patients-and-caregivers/about-us/pages/licensure-and-accreditation" class="active"><span>Lincensure and Accreditation</span></a>
+          </li>
+          <li>
+            <a href="/patients-and-caregivers/about-us/pages/communication-policy"><span>Communication Policy</span></a>
+          </li>
+          <li>
+            <a href="/patients-and-caregivers/about-us/pages/sitemap"><span>Sitemap</span></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    {% include "../base/footer.html" %}
+  </div>
+</div>
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous" defer></script>
+<script type="text/javascript" src="{% static 'website/jsmobile/navbar.js' %}" defer></script>
+</body>
+</html>
+

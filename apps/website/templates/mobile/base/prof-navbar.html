@@ -1,0 +1,148 @@
+    {% load static %}
+    <!-- Developed by Krishna Kokatay, 2019. Visit my website: www.kalightortaio.com -->
+    <!-- Responsive design and grid formatting by Michael Amic-Angelo, 2019. Visit my website: www.amicandesign.com -->      <nav id="stickyNav" role="navigation">
+          <div id="menu-toggle">
+              <label class="hamburger" for="#hamcheck">
+                  <input type="checkbox" id="hamcheck"/>
+                  <span class="burger"></span>
+                  <span class="ham"></span>
+                  <span class="ham"></span>
+              </label>
+              <div class="utility-header hidelink">
+                  <div class="centered">
+                      <ul class="utility-list">
+                          <li class="utility-list-items rborder">
+                              <span class="topmobile">
+                                  <a href="/professionals/pages/home">
+                                      <span>Home</span>
+                                  </a>
+                              </span>
+                          </li>
+                          <li class="utility-list-items rborder">
+                              <a href="/patients-and-caregivers/contact-us/pages/home">
+                                  <span>Contact Us</span>
+                              </a>
+                          </li>
+                          <li class="tts utility-list-items rborder">
+                              <a href="javascript:;">
+                                  <span>Text to Speech</span>
+                              </a>
+                          </li>
+                          <li class="utility-list-items toggleUtil rborder">
+                              <a href="javascript:;">
+                                  <span>Turn Off Text to Speech</span>
+                              </a>
+                          </li>
+                          <li class="utility-list-items rborder">
+                              <a href="javascript:;" class="zoomout">
+                                  <span>Zoom Out</span>
+                              </a>
+                          </li>
+                          <li class="utility-list-items rborder">
+                              <a href="javascript:;" class="zoomreset">
+                                  <span>Zoom Reset</span>
+                              </a>
+                          </li>
+                          <li class="utility-list-items">
+                              <a href="javascript:;" class="zoomin">
+                                  <span>Zoom In</span>
+                              </a>
+                          </li>
+                      </ul>
+                      <div class="phone-wrapper utility-list-items">
+                          <i class="fas fa-phone black"></i>
+                          <a href="tel:8056678558">
+                              <span>&nbsp;Main Telephone<br>805.667.8558&nbsp;</span>
+                          </a>
+                      </div>
+                  </div>
+              </div>
+              <div class="mid-header topmobile">
+                  <div class="centered hidelink">
+                      <div class="logo-wrapper">
+                          <img src="{% static 'website/images/logo.png' %}" height="90" width="400" alt="logo">
+                      </div>
+                      <div class="tabs">
+                            <a class="patient-tab" href="/patients-and-caregivers/pages/home">
+                                <span>Patients and Caregivers</span>
+                                <div class="arrow-up"></div>
+                            </a>
+                            <a class="professional-tab active" href="/professionals/pages/home">
+                                <span>Professionals</span>
+                                <div class="arrow-up"></div>
+                            </a>
+                      </div>
+                  </div>
+              </div>
+              <div class="main-header">
+                  <div class="centered hidelink">
+                      <ul class="main-list">
+                          <li class="main-list-items">
+                              <a href="/professionals/refer-a-patient/pages/home">
+                                  <span>Refer a Patient</span>
+                              </a>
+                              <span class="triangle">▼</span>
+                              <div class="dropdown-content">
+                                  <a href="/professionals/refer-a-patient/pages/admission-criteria">
+                                      <span>Admission Criteria</span>
+                                  </a>
+                                  <a href="/patients-and-caregivers/our-services/pages/quality-assurance">
+                                      <span>Quality Assurance</span>
+                                  </a>
+                                  <a href="/patients-and-caregivers/our-services/pages/care-settings">
+                                      <span>Care Settings</span>
+                                  </a>
+                              </div>
+                          </li>
+                          <li class="squares">
+                              <span>&#9632;</span>
+                          </li>
+                          <li class="main-list-items">
+                              <a href="/professionals/careers/pages/home">
+                                  <span>Careers</span>
+                              </a>
+                              <span class="triangle">▼</span>
+                              <div class="dropdown-content">
+                                  <a href="/professionals/careers/pages/job-openings">
+                                      <span>Job Openings</span>
+                                  </a>
+                              </div>
+                          </li>
+                          <li class="squares">
+                              <span>&#9632;</span>
+                          </li>
+                          <li class="main-list-items">
+                              <a href="/professionals/pages/reimbursement-of-services">
+                                  <span>Reimbursement of Services</span>
+                              </a>
+                          </li>
+                          <li class="main-list-items small-hide">
+                              <a class="professional-tab" href="/patients-and-caregivers/pages/home">
+                                  <span class="nav-header">Patients and Caregivers</span>
+                              </a>
+                          </li>
+                          <li class="main-list-items small-hide">
+                              <a class="professional-tab" href="/professionals/pages/home">
+                                  <span class="nav-header">Home</span>
+                              </a>
+                          </li>
+                          <li class="main-list-searchbar">
+                              <div class="searchbar">
+                                  <script type="text/javascript" src="{% static 'website/jsmobile/searchbar.js' %}" defer></script>
+                                  <!-- Credit to https://stackoverflow.com/users/153723/ergec -->
+                                  <div style="width:0px;overflow:hidden;height:0px;">
+                                      <gcse:search></gcse:search>
+                                  </div>
+                                  <form id="searchbox_001850937032020622434:loofifflmae">
+                                      <input placeholder="Search..." id="q" name="q" size="75" type="text"/>
+                                      <button type="submit">
+                                          <i class="fa fa-search"></i>
+                                      </button>
+                                  </form>
+                              </div>
+                          </li>
+                      </ul>
+                  </div>
+              </div>
+          </div>
+      </nav>
