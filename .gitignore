@@ -1,3 +1,7 @@
 *.pyc
 *.key
+*.csr
+*.ppk
+*.crt
+log
 static/
