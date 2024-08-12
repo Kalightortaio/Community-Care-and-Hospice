@@ -12,6 +12,15 @@
     <link rel="stylesheet" type="text/css" href="{% static 'website/css/main.css' %}">
     <link rel="stylesheet" type="text/css" href="{% static 'website/css/pat-base.css' %}">
     <link rel="stylesheet" type="text/css" href="{% static 'website/css/pat-news-connection.css' %}">
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16669786665"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'AW-16669786665');
+    </script>
   </head>
   <body>
     {% include "../base/pat-navbar.html" %}
